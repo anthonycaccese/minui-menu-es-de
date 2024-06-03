@@ -1,0 +1,8 @@
+<theme>
+   <include>./../theme.xml</include>
+   <view name="system,gamelist">
+      <textlist name="item-list">
+         <letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
+      </textlist>
+   </view>
+</theme>

@@ -7,6 +7,7 @@
          <listUnselectedColor>F7FBF7</listUnselectedColor>
          <helpIconColor>454e45</helpIconColor>
          <helpTextColor>F7FBF7</helpTextColor>
+         <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
    <colorScheme name="light">
@@ -17,6 +18,7 @@
          <listUnselectedColor>000000</listUnselectedColor>
          <helpIconColor>454e45</helpIconColor>
          <helpTextColor>000000</helpTextColor>
+         <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
    <colorScheme name="retroBright">
@@ -27,6 +29,7 @@
          <listUnselectedColor>808480</listUnselectedColor>
          <helpIconColor>505250</helpIconColor>
          <helpTextColor>505250</helpTextColor>
+         <badgeIconColor>505250</badgeIconColor>
       </variables>
    </colorScheme>
    <colorScheme name="custom">
@@ -37,6 +40,7 @@
          <listUnselectedColor>F7FBF7</listUnselectedColor>
          <helpIconColor>454e45</helpIconColor>
          <helpTextColor>F7FBF7</helpTextColor>
+         <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
 </theme>

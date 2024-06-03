@@ -65,6 +65,28 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <fontSize>${helpsystemFontSize}</fontSize>
          <textColor>${helpTextColor}</textColor>
          <iconColor>${helpIconColor}</iconColor>
+         <!-- East Button -->
+         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_switch">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
+         <!-- South Button -->
+         <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
+         <!-- North Button -->
+         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_switch">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
+         <!-- West Button -->
+         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
+         <!-- Left Stick Click -->
+         <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
       </helpsystem>
    </view>
    <fontSize name="small">
@@ -88,6 +110,24 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
       </variables>
    </fontSize>
+
+   <view name="gamelist">
+      <badges name="badges">
+         <origin>1 0</origin>
+         <lines>1</lines>
+         <direction>column</direction>
+         <itemsPerLine>5</itemsPerLine>
+         <slots>folder,favorite,completed,collection,altemulator</slots>
+         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+         <controllerSize>0.8</controllerSize>
+         <folderLinkSize>0.8</folderLinkSize>
+         <badgeIconColor>${badgeIconColor}</badgeIconColor>
+      </badges>
+   </view>
 
    <!--
    ///
@@ -148,6 +188,11 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <entrySpacing>0.0125</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.0046875</iconTextSpacing><!-- 3 -->
          </helpsystem>
+         <badges name="badges">
+            <pos>0.921875 0.075</pos><!-- 590 36 -->
+            <size>0.0625 0.733333333333333</size><!-- 40 352 -->
+            <itemMargin>-1 0.016666666666667</itemMargin><!-- 8 -->
+         </badges>
       </view>
    </aspectRatio>
    <aspectRatio name="19.5:9"><!-- 1040x480 -->
