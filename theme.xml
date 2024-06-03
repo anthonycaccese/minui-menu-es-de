@@ -1,0 +1,211 @@
+<!--
+theme name:       MiniUI Menu
+originally by:    Shaun Inman (http://shauninman.com/)
+ported from:      https://github.com/shauninman/MinUI
+ported by:        Anthony Caccese
+license:          creative commons CC-BY-NC-SA
+https://github.com/anthonycaccese/minui-menu-es-de
+-->
+<theme>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
+   <variables>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+      <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
+   </variables>
+   <include>./colors.xml</include>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <color>${backgroundColor}</color>
+         <path>${spacerImage}</path>
+         <zIndex>0</zIndex>
+      </image>
+      <textlist name="item-list">
+         <origin>0 0</origin>
+         <fontPath>${listFont}</fontPath>
+         <fontSize>${listFontSize}</fontSize><!-- 32 -->
+         <lineSpacing>${listLineSpacing}</lineSpacing>
+         <selectorColor>00000000</selectorColor>
+         <selectedBackgroundColor>${listSelectedBackgroundColor}</selectedBackgroundColor>
+         <selectedColor>${listSelectedColor}</selectedColor>
+         <primaryColor>${listUnselectedColor}</primaryColor>
+         <secondaryColor>${listUnselectedColor}</secondaryColor>
+         <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+         <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
+         <zIndex>1</zIndex>
+      </textlist>
+      <image name="help-background">
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.1875</size><!-- 100% 90 -->
+         <tile>true</tile>
+         <color>${backgroundColor}</color>
+         <path>${spacerImage}</path>
+         <stationary>always</stationary>
+         <zIndex>2</zIndex>
+      </image>
+      <helpsystem name="help">
+         <origin>0 0.5</origin>
+         <originDimmed>0.5 0</originDimmed>
+         <posDimmed>0.5 0.93</posDimmed>
+         <fontSize>${helpsystemFontSize}</fontSize>
+         <textColor>${helpTextColor}</textColor>
+         <iconColor>${helpIconColor}</iconColor>
+      </helpsystem>
+   </view>
+   <fontSize name="small">
+      <variables>
+         <listFontSize>0.033333333333333</listFontSize><!-- 16 -->
+         <listLineSpacing>2.2625</listLineSpacing>
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <listFontSize>0.05</listFontSize><!-- 24 -->
+         <listLineSpacing>1.8875</listLineSpacing>
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <listFontSize>0.066666666666667</listFontSize><!-- 32 -->
+         <listLineSpacing>1.9</listLineSpacing>
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+      </variables>
+   </fontSize>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9"><!-- 853x480 -->
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <pos>0.053927315357562 0.075</pos><!-- 46 36 -->
+            <size>0.892145369284877 0.733333333333333</size><!-- 761 352 -->
+            <selectedBackgroundMargins>0.014067995310668 0.014067995310668</selectedBackgroundMargins><!-- 12 12 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.039859320046893 0.908333333333333</pos><!-- 34 434 -->
+            <entrySpacing>0.009378663540445</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.003516998827667</iconTextSpacing><!-- 3 -->
+         </helpsystem>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="16:10"><!-- 768x480 -->
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <pos>0.059895833333333 0.075</pos><!-- 46 36 -->
+            <size>0.880208333333333 0.733333333333333</size><!-- 676 352 -->
+            <selectedBackgroundMargins>0.015625 0.015625</selectedBackgroundMargins><!-- 12 12 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.044270833333333 0.908333333333333</pos><!-- 34 434 -->
+            <entrySpacing>0.010416666666667</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.00390625</iconTextSpacing><!-- 3 -->
+         </helpsystem>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="3:2"><!-- 720x480 -->
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <pos>0.063888888888889 0.075</pos><!-- 46 36 -->
+            <size>0.872222222222222 0.733333333333333</size><!-- 628 352 -->
+            <selectedBackgroundMargins>0.016666666666667 0.016666666666667</selectedBackgroundMargins><!-- 12 12 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.047222222222222 0.904166666666667</pos><!-- 34 434 -->
+            <entrySpacing>0.011111111111111</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.004166666666667</iconTextSpacing><!-- 3 -->
+         </helpsystem>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="4:3"><!-- 640x480 -->
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <pos>0.071875 0.075</pos><!-- 46 36 -->
+            <size>0.85625 0.733333333333333</size><!-- 548 352 -->
+            <selectedBackgroundMargins>0.01875 0.01875</selectedBackgroundMargins><!-- 12 12 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.053125 0.904166666666667</pos><!-- 34 434 -->
+            <entrySpacing>0.0125</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.0046875</iconTextSpacing><!-- 3 -->
+         </helpsystem>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="19.5:9"><!-- 1040x480 -->
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <pos>0.044230769230769 0.075</pos><!-- 46 36 -->
+            <size>0.911538461538462 0.733333333333333</size><!-- 948 352 -->
+            <selectedBackgroundMargins>0.011538461538462 0.011538461538462</selectedBackgroundMargins><!-- 12 12 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.032692307692308 0.904166666666667</pos><!-- 34 434 -->
+            <entrySpacing>0.007692307692308</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.002884615384615</iconTextSpacing><!-- 3 -->
+         </helpsystem>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="1:1"><!-- 480x480 -->
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <pos>0.095833333333333 0.075</pos><!-- 46 36 -->
+            <size>0.808333333333333 0.733333333333333</size><!-- 388 352 -->
+            <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 12 12 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.070833333333333 0.904166666666667</pos><!-- 34 434 -->
+            <entrySpacing>0.016666666666667</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.00625</iconTextSpacing><!-- 3 -->
+         </helpsystem>
+      </view>
+   </aspectRatio>
+
+   <!--
+   ///
+   Sounds
+   ///
+   -->
+   <view name="all">
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+</theme>

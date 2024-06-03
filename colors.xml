@@ -1,0 +1,42 @@
+<theme>
+   <colorScheme name="dark">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
+         <listUnselectedColor>F7FBF7</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>F7FBF7</helpTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light">
+      <variables>
+         <backgroundColor>F7FBF7</backgroundColor>
+         <listSelectedColor>F7FBF7</listSelectedColor>
+         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
+         <listUnselectedColor>000000</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>000000</helpTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="retroBright">
+      <variables>
+         <backgroundColor>b2b4b2</backgroundColor>
+         <listSelectedColor>1f201f</listSelectedColor>
+         <listSelectedBackgroundColor>d0d1d0</listSelectedBackgroundColor>
+         <listUnselectedColor>808480</listUnselectedColor>
+         <helpIconColor>505250</helpIconColor>
+         <helpTextColor>505250</helpTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="custom">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
+         <listUnselectedColor>F7FBF7</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>F7FBF7</helpTextColor>
+      </variables>
+   </colorScheme>
+</theme>
