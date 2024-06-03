@@ -28,17 +28,17 @@
    Color Schemes
    ///
    -->
-   <colorScheme name="dark">
-      <label>Dark</label>
+   <colorScheme name="dark-bold">
+      <label>Dark (Bold)</label>
    </colorScheme>
-   <colorScheme name="light">
-      <label>Light</label>
+   <colorScheme name="light-bold">
+      <label>Light (Bold)</label>
    </colorScheme>
-   <colorScheme name="retroBright">
-      <label>Retro Bright</label>
+   <colorScheme name="dark-regular">
+      <label>Dark (Regular)</label>
    </colorScheme>
-   <colorScheme name="custom">
-      <label>Custom</label>
+   <colorScheme name="light-regular">
+      <label>Light (Regular)</label>
    </colorScheme>
 
    <!--

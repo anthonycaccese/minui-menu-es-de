@@ -15,7 +15,6 @@ https://github.com/anthonycaccese/minui-menu-es-de
    -->
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
    </variables>
    <include>./colors.xml</include>
 
@@ -126,6 +125,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <controllerSize>0.8</controllerSize>
          <folderLinkSize>0.8</folderLinkSize>
          <badgeIconColor>${badgeIconColor}</badgeIconColor>
+         <itemMargin>-1 0.016666666666667</itemMargin><!-- 8 -->
       </badges>
    </view>
 
@@ -146,6 +146,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <entrySpacing>0.009378663540445</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.003516998827667</iconTextSpacing><!-- 3 -->
          </helpsystem>
+         <badges name="badges">
+            <pos>0.953106682297773 0.075</pos><!-- 813 36 -->
+            <size>0.046893317702227 0.733333333333333</size><!-- 40 352 -->
+         </badges>
       </view>
    </aspectRatio>
    <aspectRatio name="16:10"><!-- 768x480 -->
@@ -160,6 +164,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <entrySpacing>0.010416666666667</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.00390625</iconTextSpacing><!-- 3 -->
          </helpsystem>
+         <badges name="badges">
+            <pos>0.947916666666667 0.075</pos><!-- 728 36 -->
+            <size>0.052083333333333 0.733333333333333</size><!-- 40 352 -->
+         </badges>
       </view>
    </aspectRatio>
    <aspectRatio name="3:2"><!-- 720x480 -->
@@ -174,6 +182,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <entrySpacing>0.011111111111111</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.004166666666667</iconTextSpacing><!-- 3 -->
          </helpsystem>
+         <badges name="badges">
+            <pos>0.944444444444444 0.075</pos><!-- 680 36 -->
+            <size>0.055555555555556 0.733333333333333</size><!-- 40 352 -->
+         </badges>
       </view>
    </aspectRatio>
    <aspectRatio name="4:3"><!-- 640x480 -->
@@ -191,7 +203,6 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <badges name="badges">
             <pos>0.921875 0.075</pos><!-- 590 36 -->
             <size>0.0625 0.733333333333333</size><!-- 40 352 -->
-            <itemMargin>-1 0.016666666666667</itemMargin><!-- 8 -->
          </badges>
       </view>
    </aspectRatio>
@@ -207,6 +218,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <entrySpacing>0.007692307692308</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.002884615384615</iconTextSpacing><!-- 3 -->
          </helpsystem>
+         <badges name="badges">
+            <pos>0.961538461538462 0.075</pos><!-- 1000 36 -->
+            <size>0.038461538461538 0.733333333333333</size><!-- 40 352 -->
+         </badges>
       </view>
    </aspectRatio>
    <aspectRatio name="1:1"><!-- 480x480 -->
@@ -221,6 +236,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <entrySpacing>0.016666666666667</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.00625</iconTextSpacing><!-- 3 -->
          </helpsystem>
+         <badges name="badges">
+            <pos>0.916666666666667 0.075</pos><!-- 440 36 -->
+            <size>0.083333333333333 0.733333333333333</size><!-- 40 352 -->
+         </badges>
       </view>
    </aspectRatio>
 

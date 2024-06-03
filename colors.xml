@@ -1,5 +1,10 @@
 <theme>
-   <colorScheme name="dark">
+   <colorScheme name="dark-bold,light-bold">
+      <variables>
+         <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-bold">
       <variables>
          <backgroundColor>000000</backgroundColor>
          <listSelectedColor>000000</listSelectedColor>
@@ -10,7 +15,7 @@
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="light">
+   <colorScheme name="light-bold">
       <variables>
          <backgroundColor>F7FBF7</backgroundColor>
          <listSelectedColor>F7FBF7</listSelectedColor>
@@ -21,18 +26,12 @@
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="retroBright">
+   <colorScheme name="dark-regular,light-regular">
       <variables>
-         <backgroundColor>b2b4b2</backgroundColor>
-         <listSelectedColor>1f201f</listSelectedColor>
-         <listSelectedBackgroundColor>d0d1d0</listSelectedBackgroundColor>
-         <listUnselectedColor>808480</listUnselectedColor>
-         <helpIconColor>505250</helpIconColor>
-         <helpTextColor>505250</helpTextColor>
-         <badgeIconColor>505250</badgeIconColor>
+         <listFont>./_inc/fonts/BPreplay.otf</listFont>
       </variables>
    </colorScheme>
-   <colorScheme name="custom">
+   <colorScheme name="dark-regular">
       <variables>
          <backgroundColor>000000</backgroundColor>
          <listSelectedColor>000000</listSelectedColor>
@@ -40,6 +39,17 @@
          <listUnselectedColor>F7FBF7</listUnselectedColor>
          <helpIconColor>454e45</helpIconColor>
          <helpTextColor>F7FBF7</helpTextColor>
+         <badgeIconColor>454e45</badgeIconColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light-regular">
+      <variables>
+         <backgroundColor>F7FBF7</backgroundColor>
+         <listSelectedColor>F7FBF7</listSelectedColor>
+         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
+         <listUnselectedColor>000000</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>000000</helpTextColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
