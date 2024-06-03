@@ -45,6 +45,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <secondaryColor>${listUnselectedColor}</secondaryColor>
          <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
          <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
+         <selectedBackgroundCornerRadius>0.05</selectedBackgroundCornerRadius>
          <zIndex>1</zIndex>
       </textlist>
       <image name="help-background">
@@ -110,6 +111,11 @@ https://github.com/anthonycaccese/minui-menu-es-de
       </variables>
    </fontSize>
 
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
    <view name="gamelist">
       <badges name="badges">
          <origin>1 0</origin>
@@ -139,7 +145,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <textlist name="item-list">
             <pos>0.053927315357562 0.075</pos><!-- 46 36 -->
             <size>0.892145369284877 0.733333333333333</size><!-- 761 352 -->
-            <selectedBackgroundMargins>0.014067995310668 0.014067995310668</selectedBackgroundMargins><!-- 12 12 -->
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
          <helpsystem name="help">
             <pos>0.039859320046893 0.908333333333333</pos><!-- 34 434 -->
@@ -147,17 +153,32 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <iconTextSpacing>0.003516998827667</iconTextSpacing><!-- 3 -->
          </helpsystem>
          <badges name="badges">
-            <pos>0.953106682297773 0.075</pos><!-- 813 36 -->
+            <pos>0.962485345838218 0.083333333333333</pos><!-- 821 40 -->
             <size>0.046893317702227 0.733333333333333</size><!-- 40 352 -->
          </badges>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectedBackgroundMargins>0.011723329425557 0.011723329425557</selectedBackgroundMargins><!-- 10 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectedBackgroundMargins>0.01641266119578 0.01641266119578</selectedBackgroundMargins><!-- 14 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <selectedBackgroundMargins>0.021101992966002 0.021101992966002</selectedBackgroundMargins><!-- 18 -->
+         </variables>
+      </fontSize>
    </aspectRatio>
    <aspectRatio name="16:10"><!-- 768x480 -->
       <view name="system,gamelist">
          <textlist name="item-list">
             <pos>0.059895833333333 0.075</pos><!-- 46 36 -->
             <size>0.880208333333333 0.733333333333333</size><!-- 676 352 -->
-            <selectedBackgroundMargins>0.015625 0.015625</selectedBackgroundMargins><!-- 12 12 -->
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
          <helpsystem name="help">
             <pos>0.044270833333333 0.908333333333333</pos><!-- 34 434 -->
@@ -165,17 +186,32 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <iconTextSpacing>0.00390625</iconTextSpacing><!-- 3 -->
          </helpsystem>
          <badges name="badges">
-            <pos>0.947916666666667 0.075</pos><!-- 728 36 -->
+            <pos>0.958333333333333 0.083333333333333</pos><!-- 736 40 -->
             <size>0.052083333333333 0.733333333333333</size><!-- 40 352 -->
          </badges>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectedBackgroundMargins>0.013020833333333 0.013020833333333</selectedBackgroundMargins><!-- 10 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectedBackgroundMargins>0.018229166666667 0.018229166666667</selectedBackgroundMargins><!-- 14 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <selectedBackgroundMargins>0.0234375 0.0234375</selectedBackgroundMargins><!-- 18 -->
+         </variables>
+      </fontSize>
    </aspectRatio>
    <aspectRatio name="3:2"><!-- 720x480 -->
       <view name="system,gamelist">
          <textlist name="item-list">
             <pos>0.063888888888889 0.075</pos><!-- 46 36 -->
             <size>0.872222222222222 0.733333333333333</size><!-- 628 352 -->
-            <selectedBackgroundMargins>0.016666666666667 0.016666666666667</selectedBackgroundMargins><!-- 12 12 -->
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
          <helpsystem name="help">
             <pos>0.047222222222222 0.904166666666667</pos><!-- 34 434 -->
@@ -183,17 +219,32 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <iconTextSpacing>0.004166666666667</iconTextSpacing><!-- 3 -->
          </helpsystem>
          <badges name="badges">
-            <pos>0.944444444444444 0.075</pos><!-- 680 36 -->
+            <pos>0.955555555555556 0.083333333333333</pos><!-- 688 40 -->
             <size>0.055555555555556 0.733333333333333</size><!-- 40 352 -->
          </badges>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectedBackgroundMargins>0.013888888888889 0.013888888888889</selectedBackgroundMargins><!-- 10 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectedBackgroundMargins>0.019444444444444 0.019444444444444</selectedBackgroundMargins><!-- 14 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 18 -->
+         </variables>
+      </fontSize>
    </aspectRatio>
    <aspectRatio name="4:3"><!-- 640x480 -->
       <view name="system,gamelist">
          <textlist name="item-list">
             <pos>0.071875 0.075</pos><!-- 46 36 -->
             <size>0.85625 0.733333333333333</size><!-- 548 352 -->
-            <selectedBackgroundMargins>0.01875 0.01875</selectedBackgroundMargins><!-- 12 12 -->
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
          <helpsystem name="help">
             <pos>0.053125 0.904166666666667</pos><!-- 34 434 -->
@@ -201,17 +252,32 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <iconTextSpacing>0.0046875</iconTextSpacing><!-- 3 -->
          </helpsystem>
          <badges name="badges">
-            <pos>0.921875 0.075</pos><!-- 590 36 -->
+            <pos>0.95 0.083333333333333</pos><!-- 608 40 -->
             <size>0.0625 0.733333333333333</size><!-- 40 352 -->
          </badges>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectedBackgroundMargins>0.015625 0.015625</selectedBackgroundMargins><!-- 10 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectedBackgroundMargins>0.021875 0.021875</selectedBackgroundMargins><!-- 14 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <selectedBackgroundMargins>0.028125 0.028125</selectedBackgroundMargins><!-- 18 -->
+         </variables>
+      </fontSize>
    </aspectRatio>
    <aspectRatio name="19.5:9"><!-- 1040x480 -->
       <view name="system,gamelist">
          <textlist name="item-list">
             <pos>0.044230769230769 0.075</pos><!-- 46 36 -->
             <size>0.911538461538462 0.733333333333333</size><!-- 948 352 -->
-            <selectedBackgroundMargins>0.011538461538462 0.011538461538462</selectedBackgroundMargins><!-- 12 12 -->
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
          <helpsystem name="help">
             <pos>0.032692307692308 0.904166666666667</pos><!-- 34 434 -->
@@ -219,17 +285,32 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <iconTextSpacing>0.002884615384615</iconTextSpacing><!-- 3 -->
          </helpsystem>
          <badges name="badges">
-            <pos>0.961538461538462 0.075</pos><!-- 1000 36 -->
+            <pos>0.969230769230769 0.083333333333333</pos><!-- 1008 40 -->
             <size>0.038461538461538 0.733333333333333</size><!-- 40 352 -->
          </badges>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectedBackgroundMargins>0.009615384615385 0.009615384615385</selectedBackgroundMargins><!-- 10 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectedBackgroundMargins>0.013461538461538 0.013461538461538</selectedBackgroundMargins><!-- 14 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <selectedBackgroundMargins>0.017307692307692 0.017307692307692</selectedBackgroundMargins><!-- 18 -->
+         </variables>
+      </fontSize>
    </aspectRatio>
    <aspectRatio name="1:1"><!-- 480x480 -->
       <view name="system,gamelist">
          <textlist name="item-list">
             <pos>0.095833333333333 0.075</pos><!-- 46 36 -->
             <size>0.808333333333333 0.733333333333333</size><!-- 388 352 -->
-            <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 12 12 -->
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
          <helpsystem name="help">
             <pos>0.070833333333333 0.904166666666667</pos><!-- 34 434 -->
@@ -237,10 +318,25 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <iconTextSpacing>0.00625</iconTextSpacing><!-- 3 -->
          </helpsystem>
          <badges name="badges">
-            <pos>0.916666666666667 0.075</pos><!-- 440 36 -->
+            <pos>0.933333333333333 0.083333333333333</pos><!-- 448 40 -->
             <size>0.083333333333333 0.733333333333333</size><!-- 40 352 -->
          </badges>
       </view>
+      <fontSize name="small">
+         <variables>
+            <selectedBackgroundMargins>0.020833333333333 0.020833333333333</selectedBackgroundMargins><!-- 10 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectedBackgroundMargins>0.029166666666667 0.029166666666667</selectedBackgroundMargins><!-- 14 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 18 -->
+         </variables>
+      </fontSize>
    </aspectRatio>
 
    <!--
