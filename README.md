@@ -55,10 +55,40 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Create a custom color scheme:**
 
-Coming Soon
+1) In [colors.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/colors.xml) you will see these properties at the end of the file:
+   ```
+   <colorScheme name="custom-bold,custom-regular">
+      <variables>
+         <backgroundTile>true</backgroundTile>
+         <backgroundPath>${spacerImage}</backgroundPath>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
+         <listUnselectedColor>F7FBF7</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>F7FBF7</helpTextColor>
+         <helpBackgroundColor>000000</helpBackgroundColor>
+         <badgeIconColor>454e45</badgeIconColor>
+      </variables>
+   </colorScheme>
+   ```
+   
+2) Definition of each property:
+   - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
+   - `backgroundPath` - Sets the path to an image to use for the background.  The default is a spacer image that can be used to create solid color backgrounds when used in combination with the next property.  However you can also set full screen images instead.
+   - `backgroundColor` - Sets the color to be used for the background on all screens.  If you are using a fullscreen image its best to set this to `ffffff` so that the original image's colors will display.
+   - `listSelectedColor` - Sets the text color for the selected item in the list
+   - `listSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
+   - `listUnselectedColor` - Sets the text color for unselected items in the list
+   - `helpIconColor` - Sets the icon color for items in the included help system
+   - `helpTextColor` - Sets the text color for items in the included help system
+   - `helpBackgroundColor` - Sets the background color for the included help system.  You can make this transparent by setting the value to `00000000`
+   - `badgeIconColor` - Sets the icon color for badges (Favorite, Completed, Collections, etc.) displayed on the gamelist view.
+  
+3) Changing the value for each property should allow you to create any number of color schemes.  If you make one and are comfortable with sharing I would love to see it!  Please create an issue in this repo called "Custom Color Scheme: [Name of your Color Scheme]" and add your XML changes and a screenshot of what it looks like.  Thank you!
 
 ### **Credits:**
 
-- The original MinUI was created & designed by [Shaun Inman](https://github.com/shauninman/
+- The original MinUI was created & designed by [Shaun Inman](https://github.com/shauninman/)
 - The font used is called "BPreplay" and was created by [George Triantafyllakos](https://backpacker.gr/)
 - The icons used to create the badges were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
