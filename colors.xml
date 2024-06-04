@@ -1,4 +1,14 @@
 <theme>
+   <colorScheme name="dark-bold,light-bold,pocket-dmg-bold,custom-bold">
+      <variables>
+         <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-regular,light-regular,pocket-dmg-regular,custom-regular">
+      <variables>
+         <listFont>./_inc/fonts/BPreplay.otf</listFont>
+      </variables>
+   </colorScheme>
    <colorScheme name="dark-bold,dark-regular">
       <variables>
          <backgroundTile>true</backgroundTile>
@@ -41,14 +51,22 @@
          <badgeIconColor>4DD8EB</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-bold,light-bold,pocket-dmg-bold">
+   <!-- 
+   Start custom Color Scheme. Please see instructions at:
+   https://github.com/anthonycaccese/miniui-menu-es-de?tab=readme-ov-file#create-a-custom-color-scheme
+   -->
+   <colorScheme name="custom-bold,custom-regular">
       <variables>
-         <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
-      </variables>
-   </colorScheme>
-   <colorScheme name="dark-regular,light-regular,pocket-dmg-regular">
-      <variables>
-         <listFont>./_inc/fonts/BPreplay.otf</listFont>
+         <backgroundTile>true</backgroundTile>
+         <backgroundPath>${spacerImage}</backgroundPath>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
+         <listUnselectedColor>F7FBF7</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>F7FBF7</helpTextColor>
+         <helpBackgroundColor>000000</helpBackgroundColor>
+         <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
 </theme>
