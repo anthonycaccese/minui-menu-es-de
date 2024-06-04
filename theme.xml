@@ -35,14 +35,14 @@ https://github.com/anthonycaccese/minui-menu-es-de
       </image>
       <textlist name="item-list">
          <origin>0 0</origin>
-         <fontPath>${listFont}</fontPath>
-         <fontSize>${listFontSize}</fontSize><!-- 32 -->
+         <fontPath>${textlistFont}</fontPath>
+         <fontSize>${listFontSize}</fontSize>
          <lineSpacing>${listLineSpacing}</lineSpacing>
          <selectorColor>00000000</selectorColor>
-         <selectedBackgroundColor>${listSelectedBackgroundColor}</selectedBackgroundColor>
-         <selectedColor>${listSelectedColor}</selectedColor>
-         <primaryColor>${listUnselectedColor}</primaryColor>
-         <secondaryColor>${listUnselectedColor}</secondaryColor>
+         <selectedBackgroundColor>${textlistSelectedBackgroundColor}</selectedBackgroundColor>
+         <selectedColor>${textlistSelectedColor}</selectedColor>
+         <primaryColor>${textlistUnselectedColor}</primaryColor>
+         <secondaryColor>${textlistUnselectedColor}</secondaryColor>
          <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
          <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
          <selectedBackgroundCornerRadius>0.05</selectedBackgroundCornerRadius>
@@ -53,7 +53,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <pos>0 1</pos>
          <size>1 0.1875</size><!-- 100% 90 -->
          <tile>true</tile>
-         <color>${helpBackgroundColor}</color>
+         <color>${helpsystemBackgroundColor}</color>
          <path>${spacerImage}</path>
          <stationary>always</stationary>
          <zIndex>2</zIndex>
@@ -62,9 +62,11 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <origin>0 0.5</origin>
          <originDimmed>0.5 0</originDimmed>
          <posDimmed>0.5 0.93</posDimmed>
+         <fontPath>${helpsystemFont}</fontPath>
          <fontSize>${helpsystemFontSize}</fontSize>
-         <textColor>${helpTextColor}</textColor>
-         <iconColor>${helpIconColor}</iconColor>
+         <letterCase>${helpsystemLetterCase}</letterCase>
+         <textColor>${helpsystemTextColor}</textColor>
+         <iconColor>${helpsystemIconColor}</iconColor>
          <!-- East Button -->
          <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
          <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>

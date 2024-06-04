@@ -1,12 +1,12 @@
 <theme>
-   <colorScheme name="dark-bold,light-bold,pocket-dmg-bold,custom-bold">
+   <colorScheme name="dark-bold,light-bold">
       <variables>
-         <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
+         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-regular,light-regular,pocket-dmg-regular,custom-regular">
+   <colorScheme name="dark-regular,light-regular">
       <variables>
-         <listFont>./_inc/fonts/BPreplay.otf</listFont>
+         <textlistFont>./_inc/fonts/BPreplay.otf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-bold,dark-regular">
@@ -14,12 +14,14 @@
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>000000</backgroundColor>
-         <listSelectedColor>000000</listSelectedColor>
-         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
-         <listUnselectedColor>F7FBF7</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>F7FBF7</helpTextColor>
-         <helpBackgroundColor>000000</helpBackgroundColor>
+         <textlistSelectedColor>000000</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
+         <helpsystemFont>default</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>454e45</helpsystemIconColor>
+         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
+         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
@@ -28,26 +30,31 @@
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>F7FBF7</backgroundColor>
-         <listSelectedColor>F7FBF7</listSelectedColor>
-         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
-         <listUnselectedColor>000000</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>000000</helpTextColor>
-         <helpBackgroundColor>F7FBF7</helpBackgroundColor>
+         <textlistSelectedColor>F7FBF7</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>000000</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>000000</textlistUnselectedColor>
+         <helpsystemFont>default</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>454e45</helpsystemIconColor>
+         <helpsystemTextColor>000000</helpsystemTextColor>
+         <helpsystemBackgroundColor>F7FBF7</helpsystemBackgroundColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="pocket-dmg-bold,pocket-dmg-regular">
+   <colorScheme name="pocket-dmg">
       <variables>
+         <textlistFont>./_inc/fonts/AnalogueOS-Regular.otf</textlistFont>
          <backgroundTile>true</backgroundTile>
          <backgroundPath>./_inc/images/background-pocket-dmg.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
-         <listSelectedColor>ffffff</listSelectedColor>
-         <listSelectedBackgroundColor>F59403</listSelectedBackgroundColor>
-         <listUnselectedColor>F9C19F99</listUnselectedColor>
-         <helpIconColor>D30002</helpIconColor>
-         <helpTextColor>F59403</helpTextColor>
-         <helpBackgroundColor>00000000</helpBackgroundColor>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>F59403</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>F9C19F99</textlistUnselectedColor>
+         <helpsystemFont>./_inc/fonts/AnalogueOS-Regular.otf</helpsystemFont>
+         <helpsystemLetterCase>capitalize</helpsystemLetterCase>
+         <helpsystemIconColor>D30002</helpsystemIconColor>
+         <helpsystemTextColor>F59403</helpsystemTextColor>
+         <helpsystemBackgroundColor>00000000</helpsystemBackgroundColor>
          <badgeIconColor>4DD8EB</badgeIconColor>
       </variables>
    </colorScheme>
@@ -55,17 +62,20 @@
    Start custom Color Scheme. Please see instructions at:
    https://github.com/anthonycaccese/miniui-menu-es-de?tab=readme-ov-file#create-a-custom-color-scheme
    -->
-   <colorScheme name="custom-bold,custom-regular">
+   <colorScheme name="custom">
       <variables>
+         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>000000</backgroundColor>
-         <listSelectedColor>000000</listSelectedColor>
-         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
-         <listUnselectedColor>F7FBF7</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>F7FBF7</helpTextColor>
-         <helpBackgroundColor>000000</helpBackgroundColor>
+         <textlistSelectedColor>000000</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
+         <helpsystemFont>default</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>454e45</helpsystemIconColor>
+         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
+         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
