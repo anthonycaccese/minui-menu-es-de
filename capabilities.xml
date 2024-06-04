@@ -34,11 +34,17 @@
    <colorScheme name="light-bold">
       <label>Light (Bold)</label>
    </colorScheme>
+   <colorScheme name="pocket-dmg-bold">
+      <label>Pocket DMG (Bold)</label>
+   </colorScheme>
    <colorScheme name="dark-regular">
       <label>Dark (Regular)</label>
    </colorScheme>
    <colorScheme name="light-regular">
       <label>Light (Regular)</label>
+   </colorScheme>
+   <colorScheme name="pocket-dmg-regular">
+      <label>Pocket DMG (Regular)</label>
    </colorScheme>
 
    <!--

@@ -1,56 +1,54 @@
 <theme>
-   <colorScheme name="dark-bold,light-bold">
+   <colorScheme name="dark-bold,dark-regular">
+      <variables>
+         <backgroundTile>true</backgroundTile>
+         <backgroundPath>${spacerImage}</backgroundPath>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
+         <listUnselectedColor>F7FBF7</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>F7FBF7</helpTextColor>
+         <helpBackgroundColor>000000</helpBackgroundColor>
+         <badgeIconColor>454e45</badgeIconColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light-bold,light-regular">
+      <variables>
+         <backgroundTile>true</backgroundTile>
+         <backgroundPath>${spacerImage}</backgroundPath>
+         <backgroundColor>F7FBF7</backgroundColor>
+         <listSelectedColor>F7FBF7</listSelectedColor>
+         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
+         <listUnselectedColor>000000</listUnselectedColor>
+         <helpIconColor>454e45</helpIconColor>
+         <helpTextColor>000000</helpTextColor>
+         <helpBackgroundColor>F7FBF7</helpBackgroundColor>
+         <badgeIconColor>454e45</badgeIconColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="pocket-dmg-bold,pocket-dmg-regular">
+      <variables>
+         <backgroundTile>true</backgroundTile>
+         <backgroundPath>./_inc/images/background-pocket-dmg.png</backgroundPath>
+         <backgroundColor>ffffff</backgroundColor>
+         <listSelectedColor>ffffff</listSelectedColor>
+         <listSelectedBackgroundColor>F59403</listSelectedBackgroundColor>
+         <listUnselectedColor>F9C19F99</listUnselectedColor>
+         <helpIconColor>D30002</helpIconColor>
+         <helpTextColor>F59403</helpTextColor>
+         <helpBackgroundColor>00000000</helpBackgroundColor>
+         <badgeIconColor>4DD8EB</badgeIconColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-bold,light-bold,pocket-dmg-bold">
       <variables>
          <listFont>./_inc/fonts/BPreplayBold.otf</listFont>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-bold">
-      <variables>
-         <backgroundColor>000000</backgroundColor>
-         <listSelectedColor>000000</listSelectedColor>
-         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
-         <listUnselectedColor>F7FBF7</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>F7FBF7</helpTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
-      </variables>
-   </colorScheme>
-   <colorScheme name="light-bold">
-      <variables>
-         <backgroundColor>F7FBF7</backgroundColor>
-         <listSelectedColor>F7FBF7</listSelectedColor>
-         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
-         <listUnselectedColor>000000</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>000000</helpTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
-      </variables>
-   </colorScheme>
-   <colorScheme name="dark-regular,light-regular">
+   <colorScheme name="dark-regular,light-regular,pocket-dmg-regular">
       <variables>
          <listFont>./_inc/fonts/BPreplay.otf</listFont>
-      </variables>
-   </colorScheme>
-   <colorScheme name="dark-regular">
-      <variables>
-         <backgroundColor>000000</backgroundColor>
-         <listSelectedColor>000000</listSelectedColor>
-         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
-         <listUnselectedColor>F7FBF7</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>F7FBF7</helpTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
-      </variables>
-   </colorScheme>
-   <colorScheme name="light-regular">
-      <variables>
-         <backgroundColor>F7FBF7</backgroundColor>
-         <listSelectedColor>F7FBF7</listSelectedColor>
-         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
-         <listUnselectedColor>000000</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>000000</helpTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
 </theme>

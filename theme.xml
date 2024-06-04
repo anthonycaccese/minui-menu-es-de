@@ -27,10 +27,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <image name="background">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <size>1 1</size>
-         <tile>true</tile>
+         <cropSize>1 1</cropSize>
+         <tile>${backgroundTile}</tile>
          <color>${backgroundColor}</color>
-         <path>${spacerImage}</path>
+         <path>${backgroundPath}</path>
          <zIndex>0</zIndex>
       </image>
       <textlist name="item-list">
@@ -53,7 +53,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <pos>0 1</pos>
          <size>1 0.1875</size><!-- 100% 90 -->
          <tile>true</tile>
-         <color>${backgroundColor}</color>
+         <color>${helpBackgroundColor}</color>
          <path>${spacerImage}</path>
          <stationary>always</stationary>
          <zIndex>2</zIndex>
