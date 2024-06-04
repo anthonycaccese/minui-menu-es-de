@@ -85,7 +85,9 @@ The theme has a simple set of options that can be changed directly from the UI S
    - `helpBackgroundColor` - Sets the background color for the included help system.  You can make this transparent by setting the value to `00000000`
    - `badgeIconColor` - Sets the icon color for badges (Favorite, Completed, Collections, etc.) displayed on the gamelist view.
   
-3) Changing the value for each property should allow you to create any number of color schemes.  If you make one and are comfortable with sharing I would love to see it!  Please create an issue in this repo called "Custom Color Scheme: [Name of your Color Scheme]" and add your XML changes and a screenshot of what it looks like.  Thank you!
+3) Changing the value for each property should allow you to create any number of color schemes.
+
+4) If you make one and are comfortable with sharing I would love to see it!  Please create an issue in this repo called "Custom Color Scheme: [Name of your Color Scheme]" and add your XML changes and a screenshot of what it looks like.  Thank you!
 
 ### **Credits:**
 
