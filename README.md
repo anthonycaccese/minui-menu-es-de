@@ -53,44 +53,56 @@ The theme has a simple set of options that can be changed directly from the UI S
  
 ## Additional Notes
 
-### **Create a custom color scheme:**
+### **Creating a custom color scheme:**
 
 1) In [colors.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/colors.xml) you will see these properties at the end of the file:
    ```
-   <colorScheme name="custom-bold,custom-regular">
+   <colorScheme name="custom">
       <variables>
+         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>000000</backgroundColor>
-         <listSelectedColor>000000</listSelectedColor>
-         <listSelectedBackgroundColor>F7FBF7</listSelectedBackgroundColor>
-         <listUnselectedColor>F7FBF7</listUnselectedColor>
-         <helpIconColor>454e45</helpIconColor>
-         <helpTextColor>F7FBF7</helpTextColor>
-         <helpBackgroundColor>000000</helpBackgroundColor>
+         <textlistSelectedColor>000000</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
+         <helpsystemFont>default</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>454e45</helpsystemIconColor>
+         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
+         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
    ```
    
 2) Definition of each property:
+   - `textlistFont` - The font that will be used for the system and game list.  You can use the built in font by leaving the value as is or change it to point to a custom font file that you supply.
    - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
    - `backgroundPath` - Sets the path to an image to use for the background.  The default is a spacer image that can be used to create solid color backgrounds when used in combination with the next property.  However you can also set full screen images instead.
    - `backgroundColor` - Sets the color to be used for the background on all screens.  If you are using a fullscreen image its best to set this to `ffffff` so that the original image's colors will display.
-   - `listSelectedColor` - Sets the text color for the selected item in the list
-   - `listSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
-   - `listUnselectedColor` - Sets the text color for unselected items in the list
-   - `helpIconColor` - Sets the icon color for items in the included help system
-   - `helpTextColor` - Sets the text color for items in the included help system
-   - `helpBackgroundColor` - Sets the background color for the included help system.  You can make this transparent by setting the value to `00000000`
+   - `textlistSelectedColor` - Sets the text color for the selected item in the list
+   - `textlistSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
+   - `textlistUnselectedColor` - Sets the text color for unselected items in the list
+   - `helpsystemFont` - The font that will be used to display text in the included help system.  You can use the built in font by leaving the value as is or change it to point to a custom font file that you supply.
+   - `helpsystemLetterCase` - Sets the lettercase that is used for text in the included help system.  Allowed values are `lowercase`, `uppercase` or `capitalize`
+   - `helpsystemIconColor` - Sets the icon color for items in the included help system
+   - `helpsystemTextColor` - Sets the text color for items in the included help system
+   - `helpsystemBackgroundColor` - Sets the background color for the included help system.  You can make this transparent by setting the value to `00000000`
    - `badgeIconColor` - Sets the icon color for badges (Favorite, Completed, Collections, etc.) displayed on the gamelist view.
   
-3) Changing the value for each property should allow you to create any number of color schemes.
+4) Changing the values for each property should allow you to create any number of color schemes.  Here are some examples:
 
-4) If you make one and are comfortable with sharing I would love to see it!  Please create an issue in this repo called "Custom Color Scheme: [Name of your Color Scheme]" and add your XML changes and a screenshot of what it looks like.  Thank you!
+| "Pocket Micro" | "Pocket DMG" |
+|----|----|
+| ![Screenshot 2024-06-04 at 8 16 01 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/ab0ce581-5050-401b-9491-6bc8af84ad4b) | ![Screenshot 2024-06-04 at 8 16 10 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/3086b894-cc00-4b1f-a04c-a3c4f974ffe7) |
 
-### **Credits:**
+4) If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
+   - Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
+   - Include the values you used for the properties above (xml is preferred), the background image and fonts you added (if any) and a screenshot of what it looks like.
+
+## **Credits:**
 
 - The original MinUI was created & designed by [Shaun Inman](https://github.com/shauninman/)
-- The font used is called "BPreplay" and was created by [George Triantafyllakos](https://backpacker.gr/)
+- The included font is called "BPreplay" and was created by [George Triantafyllakos](https://backpacker.gr/)
 - The icons used to create the badges were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
