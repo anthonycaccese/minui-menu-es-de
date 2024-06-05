@@ -43,6 +43,9 @@
    <colorScheme name="pocket-dmg">
       <label>Pocket DMG</label>
    </colorScheme>
+   <colorScheme name="pocket-micro">
+      <label>Pocket Micro</label>
+   </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>
    </colorScheme>

@@ -59,10 +59,10 @@ The theme has a simple set of options that can be changed directly from the UI S
    ```
    <colorScheme name="custom">
       <variables>
-         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>000000</backgroundColor>
+         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
          <textlistSelectedColor>000000</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
@@ -77,10 +77,10 @@ The theme has a simple set of options that can be changed directly from the UI S
    ```
    
 2) Definition of each property:
-   - `textlistFont` - The font that will be used for the system and game list.  You can use the built in font by leaving the value as is or change it to point to a custom font file that you supply.
    - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
    - `backgroundPath` - Sets the path to an image to use for the background.  The default is a spacer image that can be used to create solid color backgrounds when used in combination with the next property.  However you can also set full screen images instead.
    - `backgroundColor` - Sets the color to be used for the background on all screens.  If you are using a fullscreen image its best to set this to `ffffff` so that the original image's colors will display.
+   - `textlistFont` - The font that will be used for the system and game list.  You can use the built in font by leaving the value as is or change it to point to a custom font file that you supply.
    - `textlistSelectedColor` - Sets the text color for the selected item in the list
    - `textlistSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
    - `textlistUnselectedColor` - Sets the text color for unselected items in the list
