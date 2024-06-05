@@ -81,7 +81,7 @@
       <selectable>true</selectable>
    </variant>
    <variant name="gamelist-list-cover">
-      <label>List + Cover</label>
+      <label>List + Boxart</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
