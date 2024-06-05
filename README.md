@@ -95,7 +95,9 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 | "Pocket Micro" | "Pocket DMG" |
 |----|----|
-| ![Screenshot 2024-06-04 at 8 16 01 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/ab0ce581-5050-401b-9491-6bc8af84ad4b) | ![Screenshot 2024-06-04 at 8 16 10 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/3086b894-cc00-4b1f-a04c-a3c4f974ffe7) |
+| ![Screenshot 2024-06-04 at 8 41 07 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/3c0076e5-d575-4bcd-aae1-25863e2219d0) | ![Screenshot 2024-06-04 at 8 40 59 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/bafbdec4-c60c-41e7-bda6-c86020a599bb) |
+
+
 
 4) If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
    - Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
