@@ -127,9 +127,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <origin>1 0</origin>
          <lines>1</lines>
          <direction>column</direction>
-         <itemsPerLine>5</itemsPerLine>
-         <slots>folder,favorite,completed,collection,altemulator</slots>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+         <itemsPerLine>4</itemsPerLine>
+         <slots>favorite,completed,collection,altemulator</slots>
          <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
          <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
          <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
@@ -137,7 +136,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <controllerSize>0.8</controllerSize>
          <folderLinkSize>0.8</folderLinkSize>
          <badgeIconColor>${badgeIconColor}</badgeIconColor>
-         <itemMargin>-1 0.016666666666667</itemMargin><!-- 8 -->
+         <itemMargin>0 0</itemMargin><!-- 8 -->
       </badges>
    </view>
 
