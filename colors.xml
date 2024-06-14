@@ -21,7 +21,6 @@
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>
          <helpsystemTextColor>F7FBF7</helpsystemTextColor>
-         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
@@ -37,7 +36,6 @@
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>
          <helpsystemTextColor>000000</helpsystemTextColor>
-         <helpsystemBackgroundColor>F7FBF7</helpsystemBackgroundColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
@@ -54,7 +52,6 @@
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>D30002</helpsystemIconColor>
          <helpsystemTextColor>F59403</helpsystemTextColor>
-         <helpsystemBackgroundColor>00000000</helpsystemBackgroundColor>
          <badgeIconColor>4DD8EB</badgeIconColor>
       </variables>
    </colorScheme>
@@ -71,29 +68,7 @@
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>909090</helpsystemIconColor>
          <helpsystemTextColor>909090</helpsystemTextColor>
-         <helpsystemBackgroundColor>00000000</helpsystemBackgroundColor>
          <badgeIconColor>D0D0D0</badgeIconColor>
-      </variables>
-   </colorScheme>
-   <!-- 
-   Start custom Color Scheme. Please see instructions at:
-   https://github.com/anthonycaccese/miniui-menu-es-de?tab=readme-ov-file#create-a-custom-color-scheme
-   -->
-   <colorScheme name="custom">
-      <variables>
-         <backgroundTile>true</backgroundTile>
-         <backgroundPath>${spacerImage}</backgroundPath>
-         <backgroundColor>000000</backgroundColor>
-         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
-         <textlistSelectedColor>000000</textlistSelectedColor>
-         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
-         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
-         <helpsystemFont>default</helpsystemFont>
-         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>454e45</helpsystemIconColor>
-         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
-         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
-         <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
 </theme>

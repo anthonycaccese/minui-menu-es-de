@@ -16,7 +16,26 @@ https://github.com/anthonycaccese/minui-menu-es-de
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
    </variables>
-   <include>./colors.xml</include>
+   <colorScheme name="
+      dark-bold,
+      light-bold,
+      dark-normal,
+      light-normal,
+      pocket-dmg,
+      pocket-micro
+      ">
+      <variables>
+         <colorSchemePath>./colors.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="
+      custom
+      ">
+      <variables>
+         <colorSchemePath>./theme-customizations/colors-custom.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <include>${colorSchemePath}</include>
 
    <!--
    ///

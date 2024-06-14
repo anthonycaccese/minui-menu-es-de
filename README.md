@@ -55,41 +55,32 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Creating a custom color scheme:**
 
-1) In [colors.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/colors.xml) you will see these properties at the end of the file:
-   ```
-   <colorScheme name="custom">
-      <variables>
-         <backgroundTile>true</backgroundTile>
-         <backgroundPath>${spacerImage}</backgroundPath>
-         <backgroundColor>000000</backgroundColor>
-         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
-         <textlistSelectedColor>000000</textlistSelectedColor>
-         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
-         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
-         <helpsystemFont>default</helpsystemFont>
-         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>454e45</helpsystemIconColor>
-         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
-         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
-         <badgeIconColor>454e45</badgeIconColor>
-      </variables>
-   </colorScheme>
-   ```
-   
-2) Definition of each property:
-   - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
-   - `backgroundPath` - Sets the path to an image to use for the background.  The default is a spacer image that can be used to create solid color backgrounds when used in combination with the next property.  However you can also set full screen images instead.
-   - `backgroundColor` - Sets the color to be used for the background on all screens.  If you are using a fullscreen image its best to set this to `ffffff` so that the original image's colors will display.
-   - `textlistFont` - The font that will be used for the system and game list.  You can use the built in font by leaving the value as is or change it to point to a custom font file that you supply.
-   - `textlistSelectedColor` - Sets the text color for the selected item in the list
-   - `textlistSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
-   - `textlistUnselectedColor` - Sets the text color for unselected items in the list
-   - `helpsystemFont` - The font that will be used to display text in the included help system.  You can use the built in font by leaving the value as is or change it to point to a custom font file that you supply.
-   - `helpsystemLetterCase` - Sets the lettercase that is used for text in the included help system.  Allowed values are `lowercase`, `uppercase` or `capitalize`
-   - `helpsystemIconColor` - Sets the icon color for items in the included help system
-   - `helpsystemTextColor` - Sets the text color for items in the included help system
-   - `helpsystemBackgroundColor` - Sets the background color for the included help system.  You can make this transparent by setting the value to `00000000`
-   - `badgeIconColor` - Sets the icon color for badges (Favorite, Completed, Collections, etc.) displayed on the gamelist view.
+1) In this theme's resources folder you will find a file called [colors-custom.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/resources/colors-custom.xml)
+
+2) make a folder in this theme's folder named `theme-customizations` and make a copy of the `colors-custom.xml` file inside this new folder.  
+
+3) Edit the properites in the file you copied to create your custom color scheme:
+   - Definition of each property:
+      - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
+      - `backgroundPath` - Sets the path to an image to use for the background.  
+         - If you want the background to be a solid color then you can populate this property with a value of `${spacerImage}` and then set the value for `backgroundColor` to the color you prefer.  
+         - If you want to set this to a fullscreen image then add your image into the `theme-customizations` folder and set the value for this property to the path to your image.  For example; if your image was named `background.png` then the value you would set for this would be `./theme-customizations/background.png`.
+      - `backgroundColor` - Sets the color to be used for the background on all screens.  If you are using a fullscreen image its best to set this to `ffffff` so that the original image's colors will display.
+      - `textlistFont` - The font that will be used for the system and game list.
+         - If you want to use ES-DE's default font then you can set this value to `default`
+         - If you want to use the MinUI font then you can set this value to `./_inc/fonts/BPreplayBold.otf`
+         - If you want to use your own font then add your font file into the `theme-customizations` folder and set the value for this property to the path to your font.  For example; if your font was named `font.ttf` then the value you would set for this would be `./theme-customizations/font.ttf`.
+      - `textlistSelectedColor` - Sets the text color for the selected item in the list
+      - `textlistSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
+      - `textlistUnselectedColor` - Sets the text color for unselected items in the list
+      - `helpsystemFont` - The font that will be used to display text in the included help system.  
+         - If you want to use ES-DE's default font then you can set this value to `default`
+         - If you want to use the MinUI font then you can set this value to `./_inc/fonts/BPreplayBold.otf`
+         - If you want to use your own font then add your font file into the `theme-customizations` folder and set the value for this property to the path to your font.  For example; if your font was named `font.ttf` then the value you would set for this would be `./theme-customizations/font.ttf`.
+      - `helpsystemLetterCase` - Sets the lettercase that is used for text in the included help system.  Allowed values are `lowercase`, `uppercase` or `capitalize`
+      - `helpsystemIconColor` - Sets the icon color for items in the included help system
+      - `helpsystemTextColor` - Sets the text color for items in the included help system
+      - `badgeIconColor` - Sets the icon color for badges (Favorite, Completed, Collections, etc.) displayed on the gamelist view.
   
 4) Changing the values for each property should allow you to create any number of color schemes.  Here are some examples:
 
