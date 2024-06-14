@@ -4,7 +4,7 @@ This is a tranlation of the MinUI menu interface (originally designed & created 
 
 My work focused on tranlating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
 
-The original version of UI can be found as part of the awesome MinUI custom firmware [here](https://github.com/shauninman/MinUI).
+The original version of the UI can be found as part of the awesome MinUI custom firmware [here](https://github.com/shauninman/MinUI).
 
 ## Changes Made
 
@@ -55,12 +55,16 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Creating a custom color scheme:**
 
-1) In this theme's resources folder you will find a file called [colors-custom.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/resources/colors-custom.xml)
+1) In the resources folder you will find a template file called [colors-custom.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/resources/colors-custom.xml)
 
-2) make a folder in this theme's folder named `theme-customizations` and make a copy of the `colors-custom.xml` file inside this new folder.  
+2) Make a folder named `theme-customizations` and place a copy of the `colors-custom.xml` file inside that folder.  The folder structure should look like this when you are done:
+   ```
+   /ES-DE/themes/minui-menu-es-de/theme-customizations/colors-custom.xml
+   ```
+   *Note: This structure should allow you to continue to get updates for the theme from the theme downloader while also retaining your customizations.*
 
-3) Edit the properites in the file you copied to create your custom color scheme:
-   - Definition of each property:
+3) Edit the properites in `colors-custom.xml` to create your custom color scheme:
+   - Here is a definition of each property:
       - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
       - `backgroundPath` - Sets the path to an image to use for the background.  
          - If you want the background to be a solid color then you can populate this property with a value of `${spacerImage}` and then set the value for `backgroundColor` to the color you prefer.  
@@ -81,18 +85,20 @@ The theme has a simple set of options that can be changed directly from the UI S
       - `helpsystemIconColor` - Sets the icon color for items in the included help system
       - `helpsystemTextColor` - Sets the text color for items in the included help system
       - `badgeIconColor` - Sets the icon color for badges (Favorite, Completed, Collections, etc.) displayed on the gamelist view.
-  
-4) Changing the values for each property should allow you to create any number of color schemes.  Here are some examples:
+    
+4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `Custom` and you should see your custom color scheme display.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
+
+#### Examples:
+
+Changing the values for each property should allow you to create any number of color schemes.  Here are a few examples I've made using the same properties:
 
 | "Pocket Micro" | "Pocket DMG" |
 |----|----|
 | ![Screenshot 2024-06-04 at 8 41 07 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/3c0076e5-d575-4bcd-aae1-25863e2219d0) | ![Screenshot 2024-06-04 at 8 40 59 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/bafbdec4-c60c-41e7-bda6-c86020a599bb) |
 
-
-
-4) If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
-   - Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
-   - Include the values you used for the properties above (xml is preferred), the background image and fonts you added (if any) and a screenshot of what it looks like.
+If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
+- Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
+- Include the values you used for the properties above (xml is preferred), the background image and fonts you added (if any) and a screenshot of what it looks like.
 
 ## **Credits:**
 
