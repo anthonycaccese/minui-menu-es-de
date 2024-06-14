@@ -4,12 +4,12 @@
          <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-regular,light-regular">
+   <colorScheme name="dark-normal,light-normal">
       <variables>
          <textlistFont>./_inc/fonts/BPreplay.otf</textlistFont>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-bold,dark-regular">
+   <colorScheme name="dark-bold,dark-normal">
       <variables>
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>
@@ -25,7 +25,7 @@
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="light-bold,light-regular">
+   <colorScheme name="light-bold,light-normal">
       <variables>
          <backgroundTile>true</backgroundTile>
          <backgroundPath>${spacerImage}</backgroundPath>

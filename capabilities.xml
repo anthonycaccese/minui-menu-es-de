@@ -31,16 +31,16 @@
    ///
    -->
    <colorScheme name="dark-bold">
-      <label>Dark (Bold)</label>
+      <label>Dark (Bold Font)</label>
    </colorScheme>
    <colorScheme name="light-bold">
-      <label>Light (Bold)</label>
+      <label>Light (Bold Font)</label>
    </colorScheme>
-   <colorScheme name="dark-regular">
-      <label>Dark (Regular)</label>
+   <colorScheme name="dark-normal">
+      <label>Dark (Normal Font)</label>
    </colorScheme>
-   <colorScheme name="light-regular">
-      <label>Light (Regular)</label>
+   <colorScheme name="light-normal">
+      <label>Light (Normal Font)</label>
    </colorScheme>
    <colorScheme name="pocket-dmg">
       <label>Pocket DMG</label>
