@@ -39,6 +39,8 @@ The theme has a simple set of options that can be changed directly from the UI S
    - `Medium` - Default size, good for small handheld screens under 6 inches in size.
    - `Large` - Good for small handheld screens under 4 inches in size.
    - `Small` - Smaller size, good for larger screens.
+   - `Extra Large` - Good for small handheld screens under 4 inches in size.
+   - `Extra Small` - Smaller size, good for larger screens.
 
 ### **Aspect Ratios:**
 
@@ -53,7 +55,7 @@ The theme has a simple set of options that can be changed directly from the UI S
  
 ## Additional Notes
 
-### **Creating a custom color scheme:**
+### **Creating your own color scheme:**
 
 1) In the resources folder you will find a template file called [colors-custom.xml](https://github.com/anthonycaccese/miniui-menu-es-de/blob/main/resources/colors-custom.xml)
 
