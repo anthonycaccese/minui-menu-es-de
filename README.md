@@ -43,7 +43,7 @@ The theme has a simple set of options that can be changed directly from the UI S
 |----|----|
 | ![Screenshot 2024-06-04 at 12 48 00 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/35e60b4e-78b0-417f-bdc0-3c85e9c580e8) | ![Screenshot 2024-06-04 at 12 48 14 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/63566ff2-6968-4f55-b8dc-a22a1e4a6b89) |
 
-You can also create your own custom color scheme by following the instructions under "[Creating your own color scheme](https://github.com/anthonycaccese/minui-menu-es-de/edit/main/README.md#creating-your-own-color-scheme)"
+You can also create your own custom color scheme by following the instructions under "[Creating your own color scheme](https://github.com/anthonycaccese/minui-menu-es-de?tab=readme-ov-file#creating-your-own-color-scheme)"
 
 ### **Font Sizes:**
 
