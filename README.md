@@ -9,7 +9,7 @@ The original version of the UI can be found as part of the awesome MinUI custom 
 ## Changes Made
 
 - Used [MinUI screenshots](https://raw.githubusercontent.com/shauninman/MinUI/main/github/minui-main.png) to approximate the components that would be used build a theme compatible with ES-DE.
-- Changed the helpsystem ES-DE's and created a layout that tries to evoke the original helpsystem design (sadly it can't be a 1:1 translation due to differences in the theme engines)
+- Changed the helpsystem to ES-DE's native component and created a layout that tries to evoke the original helpsystem design (sadly it can't be a 1:1 translation due to differences in the theme engines)
 - Added icons and badges specific to ES-DE functionality
 - Added a framework for adding additional color schemes and added Light and Dark options to start
 - Added Bold and Non-Bold font options
