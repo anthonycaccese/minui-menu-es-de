@@ -370,7 +370,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <aspectRatio name="16:9">
          <view name="system,gamelist">
             <textlist name="item-list">
-               <size>0.892145369284877 0.733333333333333</size><!-- 761 352 -->
+               <size>0.821805392731536 0.733333333333333</size><!-- 701 352 -->
             </textlist>
             <helpsystem name="help">
                <pos>0.039859320046893 0.908333333333333</pos><!-- 34 434 -->
@@ -381,7 +381,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <aspectRatio name="16:10">
          <view name="system,gamelist">
             <textlist name="item-list">
-               <size>0.880208333333333 0.733333333333333</size><!-- 676 352 -->
+               <size>0.802083333333333 0.733333333333333</size><!-- 616 352 -->
             </textlist>
             <helpsystem name="help">
                <pos>0.044270833333333 0.908333333333333</pos><!-- 34 434 -->
@@ -392,7 +392,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <aspectRatio name="3:2">
          <view name="system,gamelist">
             <textlist name="item-list">
-               <size>0.872222222222222 0.733333333333333</size><!-- 628 352 -->
+               <size>0.788888888888889 0.733333333333333</size><!-- 568 352 -->
             </textlist>
             <helpsystem name="help">
                <pos>0.047222222222222 0.904166666666667</pos><!-- 34 434 -->
@@ -403,7 +403,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <aspectRatio name="4:3">
          <view name="system,gamelist">
             <textlist name="item-list">
-               <size>0.85625 0.733333333333333</size><!-- 548 352 -->
+               <size>0.7625 0.733333333333333</size><!-- 488 352 -->
             </textlist>
             <helpsystem name="help">
                <pos>0.053125 0.904166666666667</pos><!-- 34 434 -->
@@ -414,7 +414,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <aspectRatio name="19.5:9">
          <view name="system,gamelist">
             <textlist name="item-list">
-               <size>0.911538461538462 0.733333333333333</size><!-- 948 352 -->
+               <size>0.853846153846154 0.733333333333333</size><!-- 888 352 -->
             </textlist>
             <helpsystem name="help">
                <pos>0.032692307692308 0.904166666666667</pos><!-- 34 434 -->
@@ -425,7 +425,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <aspectRatio name="1:1">
          <view name="system,gamelist">
             <textlist name="item-list">
-               <size>0.808333333333333 0.733333333333333</size><!-- 388 352 -->
+               <size>0.683333333333333 0.733333333333333</size><!-- 328 352 -->
             </textlist>
             <helpsystem name="help">
                <pos>0.070833333333333 0.904166666666667</pos><!-- 34 434 -->
