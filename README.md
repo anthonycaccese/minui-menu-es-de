@@ -22,6 +22,17 @@ The original version of the UI can be found as part of the awesome MinUI custom 
 
 The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
 
+### **Variants:**
+
+- `Theme Variant` - sets the color scheme that is used for the overall theme on all views.
+   - `List` - The default color variant.  A simple list in the style of MinUI
+   - `List + Boxart` - Adds the display of boxart to the list
+   - `List + Cover` - Adds the display of screenshots to the list
+ 
+| List | List + Boxart | List + Screenshot |
+|----|----|----|
+| ![List](https://github.com/anthonycaccese/minui-menu-es-de/assets/1454947/38d75de9-cd1f-4c07-9483-4d8d36b63e81) | ![List + Boxart](https://github.com/anthonycaccese/minui-menu-es-de/assets/1454947/30a8a4a1-4943-4f05-85f2-39334f75c286) | ![List + Screenshot](https://github.com/anthonycaccese/minui-menu-es-de/assets/1454947/80251c80-68b2-450b-ac3b-4562c8568caa) |
+
 ### **Color Schemes:**
 
 - `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.
@@ -31,6 +42,8 @@ The theme has a simple set of options that can be changed directly from the UI S
 | Dark | Light |
 |----|----|
 | ![Screenshot 2024-06-04 at 12 48 00 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/35e60b4e-78b0-417f-bdc0-3c85e9c580e8) | ![Screenshot 2024-06-04 at 12 48 14 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/63566ff2-6968-4f55-b8dc-a22a1e4a6b89) |
+
+You can also create your own custom color scheme by following the instructions under "[Creating your own color scheme](https://github.com/anthonycaccese/minui-menu-es-de/edit/main/README.md#creating-your-own-color-scheme)"
 
 ### **Font Sizes:**
 
