@@ -1,7 +1,7 @@
 <theme>
    <!-- 
-   Start custom Color Scheme. Please see instructions at:
-   https://github.com/anthonycaccese/miniui-menu-es-de?tab=readme-ov-file#create-a-custom-color-scheme
+   Custom Color Scheme for MinUI. Please see instructions at:
+   https://github.com/anthonycaccese/minui-menu-es-de?tab=readme-ov-file#creating-your-own-color-scheme
    -->
    <colorScheme name="custom">
       <variables>
