@@ -155,7 +155,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <controllerSize>0.8</controllerSize>
          <folderLinkSize>0.8</folderLinkSize>
          <badgeIconColor>${badgeIconColor}</badgeIconColor>
-         <itemMargin>0 0</itemMargin><!-- 8 -->
+         <itemMargin>0.016666666666667 0</itemMargin><!-- 8 -->
       </badges>
    </view>
 
