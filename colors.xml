@@ -77,14 +77,14 @@
          <backgroundPath>./_inc/images/background-amber-terminal.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
          <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
-         <textlistSelectedColor>FF8C3Cbb</textlistSelectedColor>
-         <textlistSelectedBackgroundColor>6A3C1Ebb</textlistSelectedBackgroundColor>
-         <textlistUnselectedColor>6A3C1Ebb</textlistUnselectedColor>
+         <textlistSelectedColor>FF8C3C99</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>6A3C1E99</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>6A3C1E99</textlistUnselectedColor>
          <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>FF8C3Cbb</helpsystemIconColor>
-         <helpsystemTextColor>AD6631bb</helpsystemTextColor>
-         <badgeIconColor>AD6631bb</badgeIconColor>
+         <helpsystemIconColor>FF8C3C99</helpsystemIconColor>
+         <helpsystemTextColor>AD663199</helpsystemTextColor>
+         <badgeIconColor>AD663199</badgeIconColor>
       </variables>
    </colorScheme>
 </theme>
