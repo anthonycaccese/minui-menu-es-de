@@ -93,7 +93,7 @@
          <backgroundPath>./_inc/images/background-green-terminal.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
          <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
-         <textlistSelectedColor>08992e99</textlistSelectedColor>
+         <textlistSelectedColor>3bbf5e99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>033d1299</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>033d1299</textlistUnselectedColor>
          <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
