@@ -48,6 +48,9 @@
    <colorScheme name="pocket-micro">
       <label>Pocket Micro</label>
    </colorScheme>
+   <colorScheme name="amber-terminal">
+      <label>Amber Terminal</label>
+   </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>
    </colorScheme>

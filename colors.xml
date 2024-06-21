@@ -71,4 +71,20 @@
          <badgeIconColor>D0D0D0</badgeIconColor>
       </variables>
    </colorScheme>
+   <colorScheme name="amber-terminal">
+      <variables>
+         <backgroundTile>true</backgroundTile>
+         <backgroundPath>./_inc/images/background-amber-terminal.png</backgroundPath>
+         <backgroundColor>ffffff</backgroundColor>
+         <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
+         <textlistSelectedColor>FF8C3C</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>6A3C1E</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>6A3C1E</textlistUnselectedColor>
+         <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>FF8C3C</helpsystemIconColor>
+         <helpsystemTextColor>AD6631</helpsystemTextColor>
+         <badgeIconColor>AD6631</badgeIconColor>
+      </variables>
+   </colorScheme>
 </theme>
