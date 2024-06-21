@@ -51,6 +51,9 @@
    <colorScheme name="amber-terminal">
       <label>Amber Terminal</label>
    </colorScheme>
+   <colorScheme name="green-terminal">
+      <label>Green Terminal</label>
+   </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>
    </colorScheme>

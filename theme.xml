@@ -23,7 +23,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
       light-normal,
       pocket-dmg,
       pocket-micro,
-      amber-terminal
+      amber-terminal,
+      green-terminal
       ">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>
