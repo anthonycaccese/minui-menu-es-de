@@ -74,7 +74,6 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <originDimmed>0.5 0</originDimmed>
          <posDimmed>0.5 0.93</posDimmed>
          <fontPath>${helpsystemFont}</fontPath>
-         <fontSize>${helpsystemFontSize}</fontSize>
          <letterCase>${helpsystemLetterCase}</letterCase>
          <textColor>${helpsystemTextColor}</textColor>
          <iconColor>${helpsystemIconColor}</iconColor>
@@ -106,35 +105,30 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <variables>
          <listFontSize>0.033333333333333</listFontSize><!-- 16 -->
          <listLineSpacing>2.2625</listLineSpacing>
-         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
       </variables>
    </fontSize>
    <fontSize name="small">
       <variables>
          <listFontSize>0.041666666666667</listFontSize><!-- 20 -->
          <listLineSpacing>2.0115</listLineSpacing>
-         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
       </variables>
    </fontSize>
    <fontSize name="medium">
       <variables>
          <listFontSize>0.05</listFontSize><!-- 24 -->
          <listLineSpacing>1.8875</listLineSpacing>
-         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
          <listFontSize>0.058333333333333</listFontSize><!-- 28 -->
          <listLineSpacing>1.85</listLineSpacing>
-         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
       </variables>
    </fontSize>
    <fontSize name="x-large">
       <variables>
          <listFontSize>0.066666666666667</listFontSize><!-- 32 -->
          <listLineSpacing>1.9</listLineSpacing>
-         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
       </variables>
    </fontSize>
 
@@ -161,206 +155,6 @@ https://github.com/anthonycaccese/minui-menu-es-de
       </badges>
    </view>
 
-   <!--
-   ///
-   Variants & Aspect Ratios
-   ///
-   -->
-   <!-- Variants: ALL -->
-   <variant name="gamelist-list,gamelist-list-cover,gamelist-list-screenshot">
-      <!-- 16:9 853x480 -->
-      <aspectRatio name="16:9">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <pos>0.053927315357562 0.075</pos><!-- 46 36 -->
-               <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-            </textlist>
-            <helpsystem name="help">
-               <entrySpacing>0.009378663540445</entrySpacing><!-- 8 -->
-               <iconTextSpacing>0.003516998827667</iconTextSpacing><!-- 3 -->
-            </helpsystem>
-            <badges name="badges">
-               <pos>0.962485345838218 0.083333333333333</pos><!-- 821 40 -->
-               <size>0.046893317702227 0.733333333333333</size><!-- 40 352 -->
-            </badges>
-         </view>
-         <fontSize name="small,x-small">
-            <variables>
-               <selectedBackgroundMargins>0.011723329425557 0.011723329425557</selectedBackgroundMargins><!-- 10 -->
-            </variables>
-         </fontSize>
-         <fontSize name="medium">
-            <variables>
-               <selectedBackgroundMargins>0.01641266119578 0.01641266119578</selectedBackgroundMargins><!-- 14 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large,x-large">
-            <variables>
-               <selectedBackgroundMargins>0.021101992966002 0.021101992966002</selectedBackgroundMargins><!-- 18 -->
-            </variables>
-         </fontSize>
-      </aspectRatio>
-      <!-- 16:10 768x480 -->
-      <aspectRatio name="16:10">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <pos>0.059895833333333 0.075</pos><!-- 46 36 -->
-               <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-            </textlist>
-            <helpsystem name="help">
-               <entrySpacing>0.010416666666667</entrySpacing><!-- 8 -->
-               <iconTextSpacing>0.00390625</iconTextSpacing><!-- 3 -->
-            </helpsystem>
-            <badges name="badges">
-               <pos>0.958333333333333 0.083333333333333</pos><!-- 736 40 -->
-               <size>0.052083333333333 0.733333333333333</size><!-- 40 352 -->
-            </badges>
-         </view>
-         <fontSize name="small,x-small">
-            <variables>
-               <selectedBackgroundMargins>0.013020833333333 0.013020833333333</selectedBackgroundMargins><!-- 10 -->
-            </variables>
-         </fontSize>
-         <fontSize name="medium">
-            <variables>
-               <selectedBackgroundMargins>0.018229166666667 0.018229166666667</selectedBackgroundMargins><!-- 14 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large,x-large">
-            <variables>
-               <selectedBackgroundMargins>0.0234375 0.0234375</selectedBackgroundMargins><!-- 18 -->
-            </variables>
-         </fontSize>
-      </aspectRatio>
-      <!-- 3:2 720x480 -->
-      <aspectRatio name="3:2">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <pos>0.063888888888889 0.075</pos><!-- 46 36 -->
-               <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-            </textlist>
-            <helpsystem name="help">
-               <entrySpacing>0.011111111111111</entrySpacing><!-- 8 -->
-               <iconTextSpacing>0.004166666666667</iconTextSpacing><!-- 3 -->
-            </helpsystem>
-            <badges name="badges">
-               <pos>0.955555555555556 0.083333333333333</pos><!-- 688 40 -->
-               <size>0.055555555555556 0.733333333333333</size><!-- 40 352 -->
-            </badges>
-         </view>
-         <fontSize name="small,x-small">
-            <variables>
-               <selectedBackgroundMargins>0.013888888888889 0.013888888888889</selectedBackgroundMargins><!-- 10 -->
-            </variables>
-         </fontSize>
-         <fontSize name="medium">
-            <variables>
-               <selectedBackgroundMargins>0.019444444444444 0.019444444444444</selectedBackgroundMargins><!-- 14 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large,x-large">
-            <variables>
-               <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 18 -->
-            </variables>
-         </fontSize>
-      </aspectRatio>
-      <!-- 4:3 640x480 -->
-      <aspectRatio name="4:3">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <pos>0.071875 0.075</pos><!-- 46 36 -->
-               <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-            </textlist>
-            <helpsystem name="help">
-               <entrySpacing>0.0125</entrySpacing><!-- 8 -->
-               <iconTextSpacing>0.0046875</iconTextSpacing><!-- 3 -->
-            </helpsystem>
-            <badges name="badges">
-               <pos>0.95 0.083333333333333</pos><!-- 608 40 -->
-               <size>0.0625 0.733333333333333</size><!-- 40 352 -->
-            </badges>
-         </view>
-         <fontSize name="small,x-small">
-            <variables>
-               <selectedBackgroundMargins>0.015625 0.015625</selectedBackgroundMargins><!-- 10 -->
-            </variables>
-         </fontSize>
-         <fontSize name="medium">
-            <variables>
-               <selectedBackgroundMargins>0.021875 0.021875</selectedBackgroundMargins><!-- 14 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large,x-large">
-            <variables>
-               <selectedBackgroundMargins>0.028125 0.028125</selectedBackgroundMargins><!-- 18 -->
-            </variables>
-         </fontSize>
-      </aspectRatio>
-      <!-- 19.5:9 1040x480 -->
-      <aspectRatio name="19.5:9">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <pos>0.044230769230769 0.075</pos><!-- 46 36 -->
-               <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-            </textlist>
-            <helpsystem name="help">
-               <entrySpacing>0.007692307692308</entrySpacing><!-- 8 -->
-               <iconTextSpacing>0.002884615384615</iconTextSpacing><!-- 3 -->
-            </helpsystem>
-            <badges name="badges">
-               <pos>0.969230769230769 0.083333333333333</pos><!-- 1008 40 -->
-               <size>0.038461538461538 0.733333333333333</size><!-- 40 352 -->
-            </badges>
-         </view>
-         <fontSize name="small,x-small">
-            <variables>
-               <selectedBackgroundMargins>0.009615384615385 0.009615384615385</selectedBackgroundMargins><!-- 10 -->
-            </variables>
-         </fontSize>
-         <fontSize name="medium">
-            <variables>
-               <selectedBackgroundMargins>0.013461538461538 0.013461538461538</selectedBackgroundMargins><!-- 14 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large,x-large">
-            <variables>
-               <selectedBackgroundMargins>0.017307692307692 0.017307692307692</selectedBackgroundMargins><!-- 18 -->
-            </variables>
-         </fontSize>
-      </aspectRatio>
-      <!-- 1:1 480x480 -->
-      <aspectRatio name="1:1">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <pos>0.095833333333333 0.075</pos><!-- 46 36 -->
-               <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-            </textlist>
-            <helpsystem name="help">
-               <entrySpacing>0.016666666666667</entrySpacing><!-- 8 -->
-               <iconTextSpacing>0.00625</iconTextSpacing><!-- 3 -->
-            </helpsystem>
-            <badges name="badges">
-               <pos>0.933333333333333 0.083333333333333</pos><!-- 448 40 -->
-               <size>0.083333333333333 0.733333333333333</size><!-- 40 352 -->
-            </badges>
-         </view>
-         <fontSize name="small,x-small">
-            <variables>
-               <selectedBackgroundMargins>0.020833333333333 0.020833333333333</selectedBackgroundMargins><!-- 10 -->
-            </variables>
-         </fontSize>
-         <fontSize name="medium">
-            <variables>
-               <selectedBackgroundMargins>0.029166666666667 0.029166666666667</selectedBackgroundMargins><!-- 14 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large,x-large">
-            <variables>
-               <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 18 -->
-            </variables>
-         </fontSize>
-      </aspectRatio>
-   </variant>
    <!-- Variants: List -->
    <variant name="gamelist-list">
       <view name="system,gamelist">
@@ -368,73 +162,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <origin>0 0.5</origin>
          </helpsystem>
       </view>
-      <!-- 16:9 853x480 -->
-      <aspectRatio name="16:9">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.821805392731536 0.733333333333333</size><!-- 701 352 -->
-            </textlist>
-            <helpsystem name="help">
-               <pos>0.039859320046893 0.908333333333333</pos><!-- 34 434 -->
-            </helpsystem>
-         </view>
-      </aspectRatio>
-      <!-- 16:10 768x480 -->
-      <aspectRatio name="16:10">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.802083333333333 0.733333333333333</size><!-- 616 352 -->
-            </textlist>
-            <helpsystem name="help">
-               <pos>0.044270833333333 0.908333333333333</pos><!-- 34 434 -->
-            </helpsystem>
-         </view>
-      </aspectRatio>
-      <!-- 3:2 720x480 -->
-      <aspectRatio name="3:2">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.788888888888889 0.733333333333333</size><!-- 568 352 -->
-            </textlist>
-            <helpsystem name="help">
-               <pos>0.047222222222222 0.904166666666667</pos><!-- 34 434 -->
-            </helpsystem>
-         </view>
-      </aspectRatio>
-      <!-- 4:3 640x480 -->
-      <aspectRatio name="4:3">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.7625 0.733333333333333</size><!-- 488 352 -->
-            </textlist>
-            <helpsystem name="help">
-               <pos>0.053125 0.904166666666667</pos><!-- 34 434 -->
-            </helpsystem>
-         </view>
-      </aspectRatio>
-      <!-- 19.5:9 1040x480 -->
-      <aspectRatio name="19.5:9">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.853846153846154 0.733333333333333</size><!-- 888 352 -->
-            </textlist>
-            <helpsystem name="help">
-               <pos>0.032692307692308 0.904166666666667</pos><!-- 34 434 -->
-            </helpsystem>
-         </view>
-      </aspectRatio>
-      <!-- 1:1 480x480 -->
-      <aspectRatio name="1:1">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.683333333333333 0.733333333333333</size><!-- 328 352 -->
-            </textlist>
-            <helpsystem name="help">
-               <pos>0.070833333333333 0.904166666666667</pos><!-- 34 434 -->
-            </helpsystem>
-         </view>
-      </aspectRatio>
    </variant>
+
    <!-- Variants: List + Cover, List + Screenshot -->
    <variant name="gamelist-list-cover,gamelist-list-screenshot">
       <view name="system,gamelist">
@@ -449,103 +178,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <cornerRadius>0.02</cornerRadius>
          </image>
       </view>
-      <!-- 16:9 853x480 -->
-      <aspectRatio name="16:9">
-         <view name="system,gamelist">
-            <textlist name="item-list">
-               <size>0.892145369284877 0.733333333333333</size><!-- 761 352 -->
-            </textlist>
-         </view>
-         <view name="gamelist">
-            <textlist name="item-list">
-               <size>0.420867526377491 0.733333333333333</size><!-- 359 352 -->
-            </textlist>
-            <image name="game-art">
-               <pos>0.739742086752638 0.441666666666667</pos><!-- 631 212 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 16:10 768x480 -->
-      <aspectRatio name="16:10">
-         <view name="system">
-            <textlist name="item-list">
-               <size>0.880208333333333 0.733333333333333</size><!-- 676 352 -->
-            </textlist>
-         </view>
-         <view name="gamelist">
-            <textlist name="item-list">
-               <size>0.421875 0.733333333333333</size><!-- 324 352 -->
-            </textlist>
-            <image name="game-art">
-               <pos>0.743489583333333 0.441666666666667</pos><!-- 571 212 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 3:2 720x480 -->
-      <aspectRatio name="3:2">
-         <view name="system">
-            <textlist name="item-list">
-               <size>0.872222222222222 0.733333333333333</size><!-- 628 352 -->
-            </textlist>
-         </view>
-         <view name="gamelist">
-            <textlist name="item-list">
-               <size>0.401388888888889 0.733333333333333</size><!-- 289 352 -->
-            </textlist>
-            <image name="game-art">
-               <pos>0.735416666666667 0.441666666666667</pos><!-- 529.5 212 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 4:3 640x480 -->
-      <aspectRatio name="4:3"><!-- 640x480 -->
-         <view name="system">
-            <textlist name="item-list">
-               <size>0.85625 0.733333333333333</size><!-- 548 352 -->
-            </textlist>
-         </view>
-         <view name="gamelist">
-            <textlist name="item-list">
-               <size>0.4 0.733333333333333</size><!-- 256 352 -->
-            </textlist>
-            <image name="game-art">
-               <pos>0.746875 0.441666666666667</pos><!-- 478 212 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 19.5:9 1040x480 -->
-      <aspectRatio name="19.5:9">
-         <view name="system">
-            <textlist name="item-list">
-               <size>0.911538461538462 0.733333333333333</size><!-- 948 352 -->
-            </textlist>
-         </view>
-         <view name="gamelist">
-            <textlist name="item-list">
-               <size>0.401923076923077 0.733333333333333</size><!-- 418 352 -->
-            </textlist>
-            <image name="game-art">
-               <pos>0.729807692307692 0.441666666666667</pos><!-- 759 212 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 1:1 480x480 -->
-      <aspectRatio name="1:1">
-         <view name="system">
-            <textlist name="item-list">
-               <size>0.808333333333333 0.733333333333333</size><!-- 388 352 -->
-            </textlist>
-         </view>
-         <view name="gamelist">
-            <textlist name="item-list">
-               <size>0.404166666666667 0.733333333333333</size><!-- 194 352 -->
-            </textlist>
-            <image name="game-art">
-               <pos>0.754166666666667 0.441666666666667</pos><!-- 362 212 -->
-            </image>
-         </view>
-      </aspectRatio>
    </variant>
+
    <!-- Variants: List + Cover -->
    <variant name="gamelist-list-cover">
       <view name="gamelist">
@@ -553,55 +187,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <imageType>cover</imageType>
          </image>
       </view>
-      <!-- 16:9 853x480 -->
-      <aspectRatio name="16:9">
-         <view name="gamelist">
-            <image name="game-art">
-               <maxSize>0.412661195779601 0.733333333333333</maxSize><!-- 352 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 16:10 768x480 -->
-      <aspectRatio name="16:10">
-         <view name="gamelist">
-            <image name="game-art">
-               <maxSize>0.393229166666667 0.733333333333333</maxSize><!-- 302 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 3:2 720x480 -->
-      <aspectRatio name="3:2">
-         <view name="gamelist">
-            <image name="game-art">
-               <maxSize>0.401388888888889 0.733333333333333</maxSize><!-- 289 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 4:3 640x480 -->
-      <aspectRatio name="4:3">
-         <view name="gamelist">
-            <image name="game-art">
-               <maxSize>0.3625 0.733333333333333</maxSize><!-- 232 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 19.5:9 1040x480 -->
-      <aspectRatio name="19.5:9">
-         <view name="gamelist">
-            <image name="game-art">
-               <maxSize>0.451923076923077 0.733333333333333</maxSize><!-- 470 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 1:1 480x480 -->
-      <aspectRatio name="1:1">
-         <view name="gamelist">
-            <image name="game-art">
-               <maxSize>0.3 0.733333333333333</maxSize><!-- 144 352 -->
-            </image>
-         </view>
-      </aspectRatio>
    </variant>
+
    <!-- Variants: List + Screenshot -->
    <variant name="gamelist-list-screenshot">
       <view name="gamelist">
@@ -609,54 +196,6 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <imageType>screenshot</imageType>
          </image>
       </view>
-      <!-- 16:9 853x480 -->
-      <aspectRatio name="16:9">
-         <view name="gamelist">
-            <image name="game-art">
-               <cropSize>0.412661195779601 0.733333333333333</cropSize><!-- 352 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 16:10 768x480 -->
-      <aspectRatio name="16:10">
-         <view name="gamelist">
-            <image name="game-art">
-               <cropSize>0.393229166666667 0.733333333333333</cropSize><!-- 302 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 3:2 720x480 -->
-      <aspectRatio name="3:2">
-         <view name="gamelist">
-            <image name="game-art">
-               <cropSize>0.401388888888889 0.733333333333333</cropSize><!-- 289 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 4:3 640x480 -->
-      <aspectRatio name="4:3">
-         <view name="gamelist">
-            <image name="game-art">
-               <cropSize>0.3625 0.733333333333333</cropSize><!-- 232 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 19.5:9 1040x480 -->
-      <aspectRatio name="19.5:9">
-         <view name="gamelist">
-            <image name="game-art">
-               <cropSize>0.451923076923077 0.733333333333333</cropSize><!-- 470 352 -->
-            </image>
-         </view>
-      </aspectRatio>
-      <!-- 1:1 480x480 -->
-      <aspectRatio name="1:1">
-         <view name="gamelist">
-            <image name="game-art">
-               <cropSize>0.3 0.733333333333333</cropSize><!-- 144 352 -->
-            </image>
-         </view>
-      </aspectRatio>
    </variant>
 
    <!--
@@ -687,5 +226,29 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <path>./_inc/sounds/launch.wav</path>
       </sound>
    </view>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+   <aspectRatio name="16:10">
+      <include>./aspect-ratio-16-10.xml</include>
+   </aspectRatio>
+   <aspectRatio name="3:2">
+      <include>./aspect-ratio-3-2.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3">
+      <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>
+   <aspectRatio name="19.5:9">
+      <include>./aspect-ratio-19_5-9.xml</include>
+   </aspectRatio>
+   <aspectRatio name="1:1">
+      <include>./aspect-ratio-1-1.xml</include>
+   </aspectRatio>
 
 </theme>

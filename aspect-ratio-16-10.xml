@@ -1,0 +1,102 @@
+<!-- 
+16:10 aspect ratio
+based on 768x480
+-->
+<theme>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <textlist name="item-list">
+         <pos>0.059895833333333 0.075</pos><!-- 46 36 -->
+         <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+      </textlist>
+      <helpsystem name="help">
+         <fontSize>${helpsystemFontSize}</fontSize>
+         <entrySpacing>0.010416666666667</entrySpacing><!-- 8 -->
+         <iconTextSpacing>0.00390625</iconTextSpacing><!-- 3 -->
+      </helpsystem>
+      <badges name="badges">
+         <pos>0.958333333333333 0.083333333333333</pos><!-- 736 40 -->
+         <size>0.052083333333333 0.733333333333333</size><!-- 40 352 -->
+      </badges>
+   </view>
+   <fontSize name="small,x-small">
+      <variables>
+         <selectedBackgroundMargins>0.013020833333333 0.013020833333333</selectedBackgroundMargins><!-- 10 -->
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <selectedBackgroundMargins>0.018229166666667 0.018229166666667</selectedBackgroundMargins><!-- 14 -->
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large,x-large">
+      <variables>
+         <selectedBackgroundMargins>0.0234375 0.0234375</selectedBackgroundMargins><!-- 18 -->
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+      </variables>
+   </fontSize>
+
+   <!-- Variants: List -->
+   <variant name="
+      gamelist-list
+      ">
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <size>0.802083333333333 0.733333333333333</size><!-- 616 352 -->
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.044270833333333 0.908333333333333</pos><!-- 34 434 -->
+         </helpsystem>
+      </view>
+   </variant>
+
+   <!-- Variants: List + Cover, List + Screenshot -->
+   <variant name="
+      gamelist-list-cover,
+      gamelist-list-screenshot
+      ">
+      <view name="system">
+         <textlist name="item-list">
+            <size>0.880208333333333 0.733333333333333</size><!-- 676 352 -->
+         </textlist>
+      </view>
+      <view name="gamelist">
+         <textlist name="item-list">
+            <size>0.421875 0.733333333333333</size><!-- 324 352 -->
+         </textlist>
+         <image name="game-art">
+            <pos>0.743489583333333 0.441666666666667</pos><!-- 571 212 -->
+         </image>
+      </view>
+   </variant>
+
+   <!-- Variants: List + Cover -->
+   <variant name="
+      gamelist-list-cover
+      ">
+      <view name="gamelist">
+         <image name="game-art">
+            <maxSize>0.393229166666667 0.733333333333333</maxSize><!-- 302 352 -->
+         </image>
+      </view>
+   </variant>
+
+   <!-- Variants: List + Screenshot -->
+   <variant name="
+      gamelist-list-screenshot
+      ">
+      <view name="gamelist">
+         <image name="game-art">
+            <cropSize>0.393229166666667 0.733333333333333</cropSize><!-- 302 352 -->
+         </image>
+      </view>
+   </variant>
+
+</theme>
