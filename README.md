@@ -80,10 +80,12 @@ You can also create your own custom color scheme by following the instructions u
 
 3) Edit the properites in `colors-custom.xml` to create your custom color scheme:
    - Here is a definition of each property:
-      - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
-      - `backgroundPath` - Sets the path to an image to use for the background.  
+      - `backgroundPath-{aspect ratio}` - Sets the path to an image to use for the background.  
          - If you want the background to be a solid color then you can populate this property with a value of `${spacerImage}` and then set the value for `backgroundColor` to the color you prefer.  
          - If you want to set this to a fullscreen image then add your image into the `theme-customizations` folder and set the value for this property to the path to your image.  For example; if your image was named `background.png` then the value you would set for this would be `./theme-customizations/background.png`.
+         - You can choose to define a specific background image for each aspect ratio by defining a specific path for each.  You can also use the same image for all aspect ratios by defining this value the same for each.
+      - `backgroundCropPos-{aspect ratio}` - Define how the background image should be positioned.
+      - `backgroundTile` - Sets if the background image should be repeated (aka tiled) or not.  Allowed values are `true` or `false`
       - `backgroundColor` - Sets the color to be used for the background on all screens.  If you are using a fullscreen image its best to set this to `ffffff` so that the original image's colors will display.
       - `textlistFont` - The font that will be used for the system and game list.
          - If you want to use ES-DE's default font then you can set this value to `default`
@@ -91,6 +93,7 @@ You can also create your own custom color scheme by following the instructions u
          - If you want to use your own font then add your font file into the `theme-customizations` folder and set the value for this property to the path to your font.  For example; if your font was named `font.ttf` then the value you would set for this would be `./theme-customizations/font.ttf`.
       - `textlistSelectedColor` - Sets the text color for the selected item in the list
       - `textlistSelectedBackgroundColor` - Sets the highlight color for the selected item in the list
+      - `textlistSelectedBackgroundCornerRadius` - Sets how round the corners of the selector should be. `0` will remove the rounded edges, `0.05` will make a pill shaped selector.  You can try different values inbetween for different effects.
       - `textlistUnselectedColor` - Sets the text color for unselected items in the list
       - `helpsystemFont` - The font that will be used to display text in the included help system.  
          - If you want to use ES-DE's default font then you can set this value to `default`

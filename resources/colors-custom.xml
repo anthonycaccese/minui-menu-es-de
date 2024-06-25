@@ -5,13 +5,25 @@
    -->
    <colorScheme name="custom">
       <variables>
+         <backgroundPath-16-9>${spacerImage}</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>${spacerImage}</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>000000</backgroundColor>
          <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
          <textlistSelectedColor>000000</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
+         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>

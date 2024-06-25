@@ -49,9 +49,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
-         <tile>${backgroundTile}</tile>
          <color>${backgroundColor}</color>
-         <path>${backgroundPath}</path>
+         <tile>${backgroundTile}</tile>
          <stationary>always</stationary>
          <zIndex>0</zIndex>
       </image>
@@ -67,7 +66,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <secondaryColor>${textlistUnselectedColor}</secondaryColor>
          <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
          <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
-         <selectedBackgroundCornerRadius>0.05</selectedBackgroundCornerRadius>
+         <selectedBackgroundCornerRadius>${textlistSelectedBackgroundCornerRadius}</selectedBackgroundCornerRadius>
          <zIndex>1</zIndex>
       </textlist>
       <helpsystem name="help">

@@ -11,12 +11,24 @@
    </colorScheme>
    <colorScheme name="dark-bold,dark-normal">
       <variables>
+         <backgroundPath-16-9>${spacerImage}</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>${spacerImage}</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>000000</backgroundColor>
          <textlistSelectedColor>000000</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
+         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>
@@ -26,11 +38,23 @@
    </colorScheme>
    <colorScheme name="light-bold,light-normal">
       <variables>
+         <backgroundPath-16-9>${spacerImage}</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>${spacerImage}</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundPath>${spacerImage}</backgroundPath>
          <backgroundColor>F7FBF7</backgroundColor>
          <textlistSelectedColor>F7FBF7</textlistSelectedColor>
          <textlistSelectedBackgroundColor>000000</textlistSelectedBackgroundColor>
+         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>000000</textlistUnselectedColor>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
@@ -41,12 +65,24 @@
    </colorScheme>
    <colorScheme name="pocket-dmg">
       <variables>
+         <backgroundPath-16-9>./_inc/images/background-pocket-dmg.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/images/background-pocket-dmg.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/images/background-pocket-dmg.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/images/background-pocket-dmg.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/images/background-pocket-dmg.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/images/background-pocket-dmg.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundPath>./_inc/images/background-pocket-dmg.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
          <textlistFont>./_inc/fonts/AnalogueOS-Regular.otf</textlistFont>
          <textlistSelectedColor>ffffff</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F59403</textlistSelectedBackgroundColor>
+         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>F9C19F99</textlistUnselectedColor>
          <helpsystemFont>./_inc/fonts/AnalogueOS-Regular.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
@@ -57,12 +93,24 @@
    </colorScheme>
    <colorScheme name="pocket-micro">
       <variables>
+         <backgroundPath-16-9>./_inc/images/background-pocket-micro.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/images/background-pocket-micro.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/images/background-pocket-micro.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/images/background-pocket-micro.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/images/background-pocket-micro.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/images/background-pocket-micro.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
-         <backgroundPath>./_inc/images/background-pocket-micro.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
          <textlistFont>./_inc/fonts/BPreplay.otf</textlistFont>
          <textlistSelectedColor>1a1a1a</textlistSelectedColor>
          <textlistSelectedBackgroundColor>D0D0D0</textlistSelectedBackgroundColor>
+         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>D0D0D0</textlistUnselectedColor>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
@@ -73,12 +121,24 @@
    </colorScheme>
    <colorScheme name="amber-terminal">
       <variables>
+         <backgroundPath-16-9>./_inc/images/background-amber-terminal.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/images/background-amber-terminal.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/images/background-amber-terminal.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/images/background-amber-terminal.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/images/background-amber-terminal.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/images/background-amber-terminal.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundPath>./_inc/images/background-amber-terminal.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
          <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
          <textlistSelectedColor>FF8C3C99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>6A3C1E99</textlistSelectedBackgroundColor>
+         <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>6A3C1E99</textlistUnselectedColor>
          <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
@@ -89,12 +149,24 @@
    </colorScheme>
    <colorScheme name="green-terminal">
       <variables>
+         <backgroundPath-16-9>./_inc/images/background-green-terminal.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/images/background-green-terminal.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/images/background-green-terminal.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/images/background-green-terminal.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/images/background-green-terminal.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/images/background-green-terminal.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundPath>./_inc/images/background-green-terminal.png</backgroundPath>
          <backgroundColor>ffffff</backgroundColor>
          <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
          <textlistSelectedColor>3bbf5e99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>033d1299</textlistSelectedBackgroundColor>
+         <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>033d1299</textlistUnselectedColor>
          <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>

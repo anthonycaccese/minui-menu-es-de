@@ -10,6 +10,10 @@ based on 853x480
    ///
    -->
    <view name="system,gamelist">
+      <image name="background">
+         <path>${backgroundPath-16-9}</path>
+         <cropPos>${backgroundCropPos-16-9}</cropPos>
+      </image>
       <textlist name="item-list">
          <pos>0.053927315357562 0.075</pos><!-- 46 36 -->
          <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
