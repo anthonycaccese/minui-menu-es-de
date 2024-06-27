@@ -174,7 +174,10 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <view name="gamelist">
          <image name="game-art">
             <origin>0.5 0.5</origin>
-            <cornerRadius>0.02</cornerRadius>
+            <color>${gameArtColor}</color>
+            <saturation>${gameArtSaturation}</saturation>
+            <brightness>${gameArtBrightness}</brightness>
+            <cornerRadius>${gameArtCornerRadius}</cornerRadius>
          </image>
       </view>
    </variant>

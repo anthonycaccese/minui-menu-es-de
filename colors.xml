@@ -29,6 +29,10 @@
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>
@@ -56,6 +60,10 @@
          <textlistSelectedBackgroundColor>000000</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>000000</textlistUnselectedColor>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>
@@ -84,6 +92,10 @@
          <textlistSelectedBackgroundColor>F59403</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>F9C19F99</textlistUnselectedColor>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>./_inc/fonts/AnalogueOS-Regular.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>D30002</helpsystemIconColor>
@@ -112,6 +124,10 @@
          <textlistSelectedBackgroundColor>D0D0D0</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>D0D0D0</textlistUnselectedColor>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>909090</helpsystemIconColor>
@@ -140,6 +156,10 @@
          <textlistSelectedBackgroundColor>6A3C1E99</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>6A3C1E99</textlistUnselectedColor>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>FF8C3C99</helpsystemIconColor>
@@ -168,6 +188,10 @@
          <textlistSelectedBackgroundColor>033d1299</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>033d1299</textlistUnselectedColor>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>033d1299</helpsystemIconColor>

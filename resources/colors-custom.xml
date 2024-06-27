@@ -24,6 +24,10 @@
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>454e45</helpsystemIconColor>

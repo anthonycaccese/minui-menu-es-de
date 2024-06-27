@@ -99,6 +99,10 @@ You can also create your own custom color scheme by following the instructions u
          - If you want to use ES-DE's default font then you can set this value to `default`
          - If you want to use the MinUI font then you can set this value to `./_inc/fonts/BPreplayBold.otf`
          - If you want to use your own font then add your font file into the `theme-customizations` folder and set the value for this property to the path to your font.  For example; if your font was named `font.ttf` then the value you would set for this would be `./theme-customizations/font.ttf`.
+      - `gameArtColor` - Applies a color shift to the game art. For example, an all-white image with FF0000 applied would become completely red. You can also control the transparency of the image by setting the value to for example FFFFFFAA. This keeps all pixels at their normal color and only affects the alpha channel. This property is applied after saturation so by setting that property to 0 it's possible to colorize rather than color shift.
+      - `gameArtSaturation` - Controls the level of color saturation for the game art. Minimum value is `0` (grayscale) and maximum value is `1` (original file saturation).
+      - `gameArtBrightness` - Controls the relative level of brightness for the game art. This is intended primarily for fine adjustments, for example if a color shift has been applied which may have lowered the overall brightness of the image.
+      - `gameArtCornerRadius` - Sets how round the corners of the game art should be. `0` will remove the rounded edges.
       - `helpsystemLetterCase` - Sets the lettercase that is used for text in the included help system.  Allowed values are `lowercase`, `uppercase` or `capitalize`
       - `helpsystemIconColor` - Sets the icon color for items in the included help system
       - `helpsystemTextColor` - Sets the text color for items in the included help system
