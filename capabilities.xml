@@ -42,17 +42,23 @@
    <colorScheme name="light-normal">
       <label>Light (Normal Font)</label>
    </colorScheme>
-   <colorScheme name="pocket-dmg">
+   <colorScheme name="user-created_pocket-dmg">
       <label>Pocket DMG</label>
    </colorScheme>
-   <colorScheme name="pocket-micro">
+   <colorScheme name="user-created_pocket-micro">
       <label>Pocket Micro</label>
    </colorScheme>
-   <colorScheme name="amber-terminal">
+   <colorScheme name="user-created_amber-terminal">
       <label>Amber Terminal</label>
    </colorScheme>
-   <colorScheme name="green-terminal">
+   <colorScheme name="user-created_green-terminal">
       <label>Green Terminal</label>
+   </colorScheme>
+   <colorScheme name="user-created_cyberpunk">
+      <label>Cyberpunk</label>
+   </colorScheme>
+   <colorScheme name="user-created_vault-boy">
+      <label>Vault Boy (by Rob Zombie)</label>
    </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>

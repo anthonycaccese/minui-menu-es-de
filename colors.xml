@@ -1,12 +1,12 @@
 <theme>
    <colorScheme name="dark-bold,light-bold">
       <variables>
-         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/BPreplayBold.otf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-normal,light-normal">
       <variables>
-         <textlistFont>./_inc/fonts/BPreplay.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/BPreplay.otf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-bold,dark-normal">
@@ -71,23 +71,23 @@
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="pocket-dmg">
+   <colorScheme name="user-created_pocket-dmg">
       <variables>
-         <backgroundPath-16-9>./_inc/images/background-pocket-dmg.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/images/background-pocket-dmg.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/images/background-pocket-dmg.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/images/background-pocket-dmg.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/images/background-pocket-dmg.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/images/background-pocket-dmg.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
-         <textlistFont>./_inc/fonts/AnalogueOS-Regular.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/pocket-dmg/AnalogueOS-Regular.otf</textlistFont>
          <textlistSelectedColor>ffffff</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F59403</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
@@ -96,30 +96,30 @@
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
          <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>./_inc/fonts/AnalogueOS-Regular.otf</helpsystemFont>
+         <helpsystemFont>./_inc/color-schemes/pocket-dmg/AnalogueOS-Regular.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>D30002</helpsystemIconColor>
          <helpsystemTextColor>F59403</helpsystemTextColor>
          <badgeIconColor>4DD8EB</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="pocket-micro">
+   <colorScheme name="user-created_pocket-micro">
       <variables>
-         <backgroundPath-16-9>./_inc/images/background-pocket-micro.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/images/background-pocket-micro.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/images/background-pocket-micro.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/images/background-pocket-micro.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/images/background-pocket-micro.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/images/background-pocket-micro.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
-         <textlistFont>./_inc/fonts/BPreplay.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/BPreplay.otf</textlistFont>
          <textlistSelectedColor>1a1a1a</textlistSelectedColor>
          <textlistSelectedBackgroundColor>D0D0D0</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
@@ -135,68 +135,132 @@
          <badgeIconColor>D0D0D0</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="amber-terminal">
+   <colorScheme name="user-created_amber-terminal">
       <variables>
-         <backgroundPath-16-9>./_inc/images/background-amber-terminal.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/images/background-amber-terminal.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/images/background-amber-terminal.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/images/background-amber-terminal.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/images/background-amber-terminal.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/images/background-amber-terminal.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
-         <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
+         <textlistFont>./_inc/color-schemes/amber-terminal/Fiery_Turk.ttf</textlistFont>
          <textlistSelectedColor>FF8C3C99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>6A3C1E99</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>6A3C1E99</textlistUnselectedColor>
-         <gameArtColor>ffffff</gameArtColor>
-         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtColor>FF8C3C99</gameArtColor>
+         <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
+         <gameArtCornerRadius>0.01</gameArtCornerRadius>
+         <helpsystemFont>./_inc/color-schemes/amber-terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>FF8C3C99</helpsystemIconColor>
          <helpsystemTextColor>AD663199</helpsystemTextColor>
          <badgeIconColor>AD663199</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="green-terminal">
+   <colorScheme name="user-created_green-terminal">
       <variables>
-         <backgroundPath-16-9>./_inc/images/background-green-terminal.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/images/background-green-terminal.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/images/background-green-terminal.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/images/background-green-terminal.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/images/background-green-terminal.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/images/background-green-terminal.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
-         <textlistFont>./_inc/fonts/terminal/Fiery_Turk.ttf</textlistFont>
+         <textlistFont>./_inc/color-schemes/green-terminal/Fiery_Turk.ttf</textlistFont>
          <textlistSelectedColor>3bbf5e99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>033d1299</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>033d1299</textlistUnselectedColor>
-         <gameArtColor>ffffff</gameArtColor>
-         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtColor>3bbf5e99</gameArtColor>
+         <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>./_inc/fonts/terminal/Gbboot-ALpM.ttf</helpsystemFont>
+         <gameArtCornerRadius>0.01</gameArtCornerRadius>
+         <helpsystemFont>./_inc/color-schemes/green-terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>033d1299</helpsystemIconColor>
          <helpsystemTextColor>3bbf5e99</helpsystemTextColor>
          <badgeIconColor>08992e99</badgeIconColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="user-created_cyberpunk">
+      <variables>
+         <backgroundPath-16-9>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 1</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 1</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 1</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 1</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 1</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 1</backgroundCropPos-1-1>
+         <backgroundColor>ffffff</backgroundColor>
+         <backgroundTile>false</backgroundTile>
+         <textlistFont>./_inc/color-schemes/cyberpunk/Valorax-lg25V.otf</textlistFont>
+         <textlistSelectedColor>fafafa</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>19C2E0</textlistSelectedBackgroundColor>
+         <textlistSelectedBackgroundCornerRadius>0.01</textlistSelectedBackgroundCornerRadius>
+         <textlistUnselectedColor>000000</textlistUnselectedColor>
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.005</gameArtCornerRadius>
+         <helpsystemFont>./_inc/color-schemes/cyberpunk/Sddystopiandemo-GO7xa.otf</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>19C2E0</helpsystemIconColor>
+         <helpsystemTextColor>111111</helpsystemTextColor>
+         <badgeIconColor>19C2E0</badgeIconColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="user-created_vault-boy">
+      <variables>
+         <backgroundPath-16-9>./_inc/color-schemes/vault-boy/fallout-16-9.jpg</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/color-schemes/vault-boy/fallout-16-10.jpg</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/color-schemes/vault-boy/fallout-4-3.jpg</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/color-schemes/vault-boy/fallout-3-2.jpg</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/color-schemes/vault-boy/fallout-19_5-9.jpg</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/color-schemes/vault-boy/fallout-1-1.jpg</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundTile>false</backgroundTile>
+         <backgroundColor>ffffff</backgroundColor>
+         <textlistFont>./_inc/color-schemes/vault-boy/monofonto-rg.otf</textlistFont>
+         <textlistSelectedColor>35f78a80</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>35f78a4D</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>35f78a80</textlistUnselectedColor>
+         <textlistSelectedBackgroundCornerRadius>0.0</textlistSelectedBackgroundCornerRadius>
+         <gameArtColor>35f78a99</gameArtColor>
+         <gameArtSaturation>0</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.02</gameArtCornerRadius>
+         <helpsystemFont>./_inc/color-schemes/vault-boy/monofonto-rg.otf</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>35f78a80</helpsystemIconColor>
+         <helpsystemTextColor>35f78a80</helpsystemTextColor>
+         <badgeIconColor>35f78a80</badgeIconColor>
       </variables>
    </colorScheme>
 </theme>
