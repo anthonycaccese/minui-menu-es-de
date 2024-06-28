@@ -231,23 +231,23 @@
          <badgeIconColor>19C2E0</badgeIconColor>
       </variables>
    </colorScheme>
-   <colorScheme name="user-created_vault-boy">
+   <colorScheme name="user-created_fallout">
       <variables>
-         <backgroundPath-16-9>./_inc/color-schemes/vault-boy/fallout-16-9.jpg</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/fallout/fallout-16-9.jpg</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/vault-boy/fallout-16-10.jpg</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/fallout/fallout-16-10.jpg</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/vault-boy/fallout-4-3.jpg</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/vault-boy/fallout-3-2.jpg</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/fallout/fallout-3-2.jpg</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/vault-boy/fallout-19_5-9.jpg</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/fallout/fallout-19_5-9.jpg</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/vault-boy/fallout-1-1.jpg</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/fallout/fallout-1-1.jpg</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
-         <textlistFont>./_inc/color-schemes/vault-boy/monofonto-rg.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/fallout/monofonto-rg.otf</textlistFont>
          <textlistSelectedColor>35f78a80</textlistSelectedColor>
          <textlistSelectedBackgroundColor>35f78a4D</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>35f78a80</textlistUnselectedColor>
@@ -256,7 +256,7 @@
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
          <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>./_inc/color-schemes/vault-boy/monofonto-rg.otf</helpsystemFont>
+         <helpsystemFont>./_inc/color-schemes/fallout/monofonto-rg.otf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>35f78a80</helpsystemIconColor>
          <helpsystemTextColor>35f78a80</helpsystemTextColor>
