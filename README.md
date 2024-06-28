@@ -112,11 +112,14 @@ You can also create your own custom color scheme by following the instructions u
 
 #### Examples:
 
-Changing the values for each property should allow you to create any number of color schemes.  Here are a few examples I've made using the same properties:
+Changing the values for each property should allow you to create any number of color schemes.  Here are a few examples that have been made using the same properties:
 
 | "Pocket Micro" | "Pocket DMG" |
 |----|----|
 | ![Screenshot 2024-06-04 at 8 41 07 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/3c0076e5-d575-4bcd-aae1-25863e2219d0) | ![Screenshot 2024-06-04 at 8 40 59 PM](https://github.com/anthonycaccese/miniui-menu-es-de/assets/1454947/bafbdec4-c60c-41e7-bda6-c86020a599bb) |
+
+| "Fallout (by RobZombie9043)" | "Cyberpunk" |
+|----|----|
 
 If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
 - Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
