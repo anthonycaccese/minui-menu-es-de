@@ -128,4 +128,4 @@ If you make a custom color scheme and are comfortable with sharing I would love 
 - The included font is called "BPreplay" and was created by [George Triantafyllakos](https://backpacker.gr/)
 - The icons used to create the badges were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 - User Created Color Schemes:
-   - `Vault Boy` - Created and provided by [RobZombie9043](https://github.com/anthonycaccese/minui-menu-es-de/issues/2)
+   - `Fallout` - Created and provided by [RobZombie9043](https://github.com/anthonycaccese/minui-menu-es-de/issues/2)
