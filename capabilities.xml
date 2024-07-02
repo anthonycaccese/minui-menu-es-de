@@ -60,6 +60,9 @@
    <colorScheme name="user-created_fallout">
       <label>Fallout (by Rob Zombie)</label>
    </colorScheme>
+   <colorScheme name="user-created_gameboy-dmg">
+      <label>Game Boy DMG (by Rob Zombie)</label>
+   </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>
    </colorScheme>

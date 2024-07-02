@@ -263,4 +263,36 @@
          <badgeIconColor>35f78a80</badgeIconColor>
       </variables>
    </colorScheme>
+   <colorScheme name="user-created_gameboy-dmg">
+      <variables>
+         <backgroundPath-16-9>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundTile>false</backgroundTile>
+         <backgroundColor>ffffff</backgroundColor>
+         <textlistFont>./_inc/color-schemes/gameboy-dmg/Gbboot-ALpM.ttf</textlistFont>
+         <textlistSelectedColor>9bbc0f</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>30623066</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>30623099</textlistUnselectedColor>
+         <textlistSelectedBackgroundCornerRadius>0.0</textlistSelectedBackgroundCornerRadius>
+         <gameArtColor>9bbc0f66</gameArtColor>
+         <gameArtSaturation>0</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <gameArtCornerRadius>0.0</gameArtCornerRadius>
+         <helpsystemFont>./_inc/color-schemes/gameboy-dmg/Gbboot-ALpM.ttf</helpsystemFont>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>30623099</helpsystemIconColor>
+         <helpsystemTextColor>30623099</helpsystemTextColor>
+         <badgeIconColor>9bbc0f00</badgeIconColor>
+      </variables>
+   </colorScheme>
 </theme>

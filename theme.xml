@@ -26,7 +26,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
       user-created_amber-terminal,
       user-created_green-terminal,
       user-created_cyberpunk,
-      user-created_fallout
+      user-created_fallout,
+      user-created_gameboy-dmg
       ">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>
