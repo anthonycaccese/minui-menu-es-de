@@ -1,12 +1,12 @@
 <theme>
    <colorScheme name="dark-bold,light-bold">
       <variables>
-         <textlistFont>./_inc/color-schemes/_default/BPreplayBold.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/Ubuntu-Bold.ttf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-normal,light-normal">
       <variables>
-         <textlistFont>./_inc/color-schemes/_default/BPreplay.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/Ubuntu-Light.ttf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-bold,dark-normal">
