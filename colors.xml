@@ -35,7 +35,7 @@
          <gameArtCornerRadius>0.02</gameArtCornerRadius>
          <helpsystemFont>default</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>454e45</helpsystemIconColor>
+         <helpsystemIconColor>F7FBF7</helpsystemIconColor>
          <helpsystemTextColor>F7FBF7</helpsystemTextColor>
          <badgeIconColor>454e45</badgeIconColor>
       </variables>
