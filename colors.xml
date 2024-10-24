@@ -15,7 +15,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>${spacerImage}</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>${spacerImage}</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -46,7 +47,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>${spacerImage}</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>${spacerImage}</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -77,7 +79,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -109,7 +112,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -141,7 +145,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -173,7 +178,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -205,7 +211,8 @@
          <backgroundCropPos-16-9>0.5 1</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 1</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 1</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 1</backgroundCropPos-3-2>
@@ -237,7 +244,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/fallout/fallout-16-10.jpg</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/fallout/fallout-3-2.jpg</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -269,7 +277,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>

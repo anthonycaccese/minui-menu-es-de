@@ -9,7 +9,8 @@
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
+         <backgroundPathSystem-4-3>${spacerImage}</backgroundPathSystem-4-3>
+         <backgroundPathGamelist-4-3>${spacerImage}</backgroundPathGamelist-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>

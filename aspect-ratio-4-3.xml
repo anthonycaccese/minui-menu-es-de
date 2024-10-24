@@ -11,7 +11,6 @@ based on 640x480
    -->
    <view name="system,gamelist">
       <image name="background">
-         <path>${backgroundPath-4-3}</path>
          <cropPos>${backgroundCropPos-4-3}</cropPos>
       </image>
       <textlist name="item-list">
@@ -46,6 +45,28 @@ based on 640x480
          <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
       </variables>
    </fontSize>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <image name="background">
+         <path>${backgroundPathSystem-4-3}</path>
+      </image>
+   </view>
+
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
+   <view name="gamelist">
+      <image name="background">
+         <path>${backgroundPathGamelist-4-3}</path>
+      </image>
+   </view>
 
    <!-- Variants: List -->
    <variant name="
