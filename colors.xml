@@ -1,12 +1,12 @@
 <theme>
    <colorScheme name="dark-bold,light-bold">
       <variables>
-         <textlistFont>./_inc/color-schemes/_default/Ubuntu-Bold.ttf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-normal,light-normal">
       <variables>
-         <textlistFont>./_inc/color-schemes/_default/Ubuntu-Light.ttf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
       </variables>
    </colorScheme>
    <colorScheme name="dark-bold,dark-normal">
@@ -30,6 +30,7 @@
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -62,6 +63,7 @@
          <textlistSelectedBackgroundColor>000000</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>000000</textlistUnselectedColor>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -95,6 +97,7 @@
          <textlistSelectedBackgroundColor>F59403</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>F9C19F99</textlistUnselectedColor>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -123,11 +126,12 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
-         <textlistFont>./_inc/color-schemes/_default/Ubuntu-Light.ttf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
          <textlistSelectedColor>1a1a1a</textlistSelectedColor>
          <textlistSelectedBackgroundColor>D0D0D0</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>D0D0D0</textlistUnselectedColor>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -161,6 +165,7 @@
          <textlistSelectedBackgroundColor>6A3C1E99</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>6A3C1E99</textlistUnselectedColor>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>FF8C3C99</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -194,6 +199,7 @@
          <textlistSelectedBackgroundColor>033d1299</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>033d1299</textlistUnselectedColor>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>3bbf5e99</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -227,6 +233,7 @@
          <textlistSelectedBackgroundColor>19C2E0</textlistSelectedBackgroundColor>
          <textlistSelectedBackgroundCornerRadius>0.01</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>000000</textlistUnselectedColor>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -260,6 +267,7 @@
          <textlistSelectedBackgroundColor>35f78a4D</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>35f78a80</textlistUnselectedColor>
          <textlistSelectedBackgroundCornerRadius>0.0</textlistSelectedBackgroundCornerRadius>
+         <textlistDisplaySystemSuffix>true</textlistDisplaySystemSuffix>
          <gameArtColor>35f78a99</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
@@ -293,6 +301,7 @@
          <textlistSelectedBackgroundColor>30623066</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>30623099</textlistUnselectedColor>
          <textlistSelectedBackgroundCornerRadius>0.0</textlistSelectedBackgroundCornerRadius>
+         <textlistDisplaySystemSuffix>true</textlistDisplaySystemSuffix>
          <gameArtColor>9bbc0f66</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>

@@ -20,11 +20,12 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>000000</backgroundColor>
-         <textlistFont>./_inc/fonts/BPreplayBold.otf</textlistFont>
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</textlistFont>
          <textlistSelectedColor>000000</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
          <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
+         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>

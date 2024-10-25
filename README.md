@@ -99,6 +99,7 @@ You can also create your own custom color scheme by following the instructions u
          - If you want to use ES-DE's default font then you can set this value to `default`
          - If you want to use the MinUI font then you can set this value to `./_inc/fonts/BPreplayBold.otf`
          - If you want to use your own font then add your font file into the `theme-customizations` folder and set the value for this property to the path to your font.  For example; if your font was named `font.ttf` then the value you would set for this would be `./theme-customizations/font.ttf`.
+      - `textlistDisplaySystemSuffix` - allows you to turn the display of system suffix on or off in collections.  allowed values are `true` and `false`
       - `gameArtColor` - Applies a color shift to the game art. For example, an all-white image with FF0000 applied would become completely red. You can also control the transparency of the image by setting the value to for example FFFFFFAA. This keeps all pixels at their normal color and only affects the alpha channel. This property is applied after saturation so by setting that property to 0 it's possible to colorize rather than color shift.
       - `gameArtSaturation` - Controls the level of color saturation for the game art. Minimum value is `0` (grayscale) and maximum value is `1` (original file saturation).
       - `gameArtBrightness` - Controls the relative level of brightness for the game art. This is intended primarily for fine adjustments, for example if a color shift has been applied which may have lowered the overall brightness of the image.
@@ -120,8 +121,6 @@ Changing the values for each property should allow you to create any number of c
 | "Fallout" | "Cyberpunk" |
 | ![Screenshot 2024-06-28 at 9 48 28 AM](https://github.com/anthonycaccese/minui-menu-es-de/assets/1454947/4ec3504b-7000-4ad8-9264-9df0722e4fcd) | ![Screenshot 2024-06-28 at 9 48 19 AM](https://github.com/anthonycaccese/minui-menu-es-de/assets/1454947/bdbe8140-d62c-4906-8106-8425943bceb6) |
 
-
-
 If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
 - Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
 - Include the values you used for the properties above (xml is preferred), the background image and fonts you added (if any) and a screenshot of what it looks like.
@@ -129,7 +128,7 @@ If you make a custom color scheme and are comfortable with sharing I would love 
 ## **Credits:**
 
 - The original MinUI was created & designed by [Shaun Inman](https://github.com/shauninman/)
-- The included font is called "BPreplay" and was created by [George Triantafyllakos](https://backpacker.gr/)
+- The included font is called ["VAG Rounded Std"](https://fontsgeek.com/vag-rounded-std-font)
 - The icons used to create the badges were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 - User Created Color Schemes:
-   - `Fallout` - Created and provided by [RobZombie9043](https://github.com/anthonycaccese/minui-menu-es-de/issues/2)
+   - `Fallout` and `DMG` - Created and provided by [RobZombie9043](https://github.com/anthonycaccese/minui-menu-es-de/issues/2)

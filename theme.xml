@@ -69,6 +69,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <secondaryColor>${textlistUnselectedColor}</secondaryColor>
          <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
          <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
+         <systemNameSuffix>${textlistDisplaySystemSuffix}</systemNameSuffix>
          <selectedBackgroundCornerRadius>${textlistSelectedBackgroundCornerRadius}</selectedBackgroundCornerRadius>
          <zIndex>1</zIndex>
       </textlist>
