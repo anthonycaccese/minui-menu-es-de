@@ -9,14 +9,27 @@ based on 480x480
    All Views
    ///
    -->
-   <view name="system,gamelist">
-      <image name="background">
+   <view name="
+      system,
+      gamelist
+      ">
+      <image name="
+         background
+         ">
          <path>${backgroundPath-1-1}</path>
          <cropPos>${backgroundCropPos-1-1}</cropPos>
       </image>
-      <textlist name="item-list">
-         <pos>0.095833333333333 0.075</pos><!-- 46 36 -->
-         <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+      <systemstatus name="
+         system-status
+         ">
+         <pos>0.925 0.075</pos><!-- 444 36 -->
+         <backgroundPadding>0.05833333 0.0375</backgroundPadding><!-- 28 18 -->
+      </systemstatus>
+      <textlist name="
+         item-list
+         ">
+         <pos>0.075 0.05833333</pos><!-- 36 28 -->
+         <selectedBackgroundMargins>0.029166666666667 0.029166666666667</selectedBackgroundMargins><!-- 14 -->
       </textlist>
       <helpsystem name="
          help-system-view-left,
@@ -24,108 +37,144 @@ based on 480x480
          help-gamelist-view-left,
          help-gamelist-view-right
          ">
-         <fontSize>${helpsystemFontSize}</fontSize>
-         <entrySpacing>0.016666666666667</entrySpacing><!-- 8 -->
-         <iconTextSpacing>0.00625</iconTextSpacing><!-- 3 -->
+         <entrySpacing>0.02083333</entrySpacing><!-- 10 -->
+         <iconTextSpacing>0.00833333</iconTextSpacing><!-- 4 -->
+         <backgroundPadding>0.05833333 0.0375</backgroundPadding><!-- 28 18 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left,
          help-gamelist-view-left">
-         <pos>0.070833333333333 0.904166666666667</pos><!-- 34 434 -->
+         <pos>0.075 0.89583333</pos><!-- 36 430 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-right,
          help-gamelist-view-right">
-         <pos>0.92916667 0.904166666666667</pos><!-- 446 434 -->
+         <pos>0.925 0.89583333</pos><!-- 444 430 -->
       </helpsystem>
-      <helpsystem name="help-system-view-left">
+      <helpsystem name="
+         help-system-view-left
+         ">
          <entries>${helpSystemViewEntriesLeft}</entries>
       </helpsystem>
-      <helpsystem name="help-system-view-right">
+      <helpsystem name="
+         help-system-view-right
+         ">
          <entries>${helpSystemViewEntriesRight}</entries>
       </helpsystem>
-      <helpsystem name="help-gamelist-view-left">
+      <helpsystem name="
+         help-gamelist-view-left
+         ">
          <entries>${helpGamelistViewEntriesLeft}</entries>
       </helpsystem>
-      <helpsystem name="help-gamelist-view-right">
+      <helpsystem name="
+         help-gamelist-view-right
+         ">
          <entries>${helpGamelistViewEntriesRight}</entries>
       </helpsystem>
    </view>
-   <fontSize name="small,x-small">
+   <fontSize name="
+      small,
+      x-small
+      ">
       <variables>
-         <selectedBackgroundMargins>0.020833333333333 0.020833333333333</selectedBackgroundMargins><!-- 10 -->
-         <helpsystemFontSize>0.029166666666667</helpsystemFontSize><!-- 14 -->
-         <helpSystemViewEntriesLeft>start,thumbstickclick,x</helpSystemViewEntriesLeft>
+         <helpSystemViewEntriesLeft>start,x</helpSystemViewEntriesLeft>
          <helpSystemViewEntriesRight>a</helpSystemViewEntriesRight>
-         <helpGamelistViewEntriesLeft>back,start,x,y</helpGamelistViewEntriesLeft>
+         <helpGamelistViewEntriesLeft>back,start</helpGamelistViewEntriesLeft>
          <helpGamelistViewEntriesRight>a</helpGamelistViewEntriesRight>
       </variables>
    </fontSize>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
       <variables>
-         <selectedBackgroundMargins>0.029166666666667 0.029166666666667</selectedBackgroundMargins><!-- 14 -->
-         <helpsystemFontSize>0.03333333</helpsystemFontSize><!-- 16 -->
          <helpSystemViewEntriesLeft>start,x</helpSystemViewEntriesLeft>
          <helpSystemViewEntriesRight>a</helpSystemViewEntriesRight>
-         <helpGamelistViewEntriesLeft>back,start,x</helpGamelistViewEntriesLeft>
+         <helpGamelistViewEntriesLeft>back,start</helpGamelistViewEntriesLeft>
          <helpGamelistViewEntriesRight>a</helpGamelistViewEntriesRight>
       </variables>
    </fontSize>
-   <fontSize name="large,x-large">
+   <fontSize name="
+      large,
+      x-large
+      ">
       <variables>
-         <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 18 -->
-         <helpsystemFontSize>0.04166667</helpsystemFontSize><!-- 20 -->
          <helpSystemViewEntriesLeft>start,x</helpSystemViewEntriesLeft>
          <helpSystemViewEntriesRight>a</helpSystemViewEntriesRight>
-         <helpGamelistViewEntriesLeft>back,start,x</helpGamelistViewEntriesLeft>
+         <helpGamelistViewEntriesLeft>back,start</helpGamelistViewEntriesLeft>
          <helpGamelistViewEntriesRight>a</helpGamelistViewEntriesRight>
       </variables>
    </fontSize>
 
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="
+      system
+      ">
+      <textlist name="
+         item-list
+         ">
+         <size>0.85 0.733333333333333</size><!-- 408 352 -->
+      </textlist>
+   </view>
+
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
    <!-- Variants: List -->
-   <variant name="gamelist-list">
-      <view name="system,gamelist">
-         <textlist name="item-list">
-            <size>0.808333333333333 0.733333333333333</size><!-- 388 352 -->
+   <variant name="
+      gamelist-list
+      ">
+      <view name="
+         gamelist
+         ">
+         <textlist name="
+            item-list
+            ">
+            <size>0.85 0.733333333333333</size><!-- 408 352 -->
          </textlist>
       </view>
    </variant>
-
-   <!-- Variants: List + Cover, List + Screenshot -->
+   <!-- Variants: List: Cover, List: Screenshot -->
    <variant name="
       gamelist-list-cover,
-      gamelist-list-screenshot
+      gamelist-list-screenshot,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia
       ">
-      <view name="system">
-         <textlist name="item-list">
-            <size>0.808333333333333 0.733333333333333</size><!-- 388 352 -->
+      <view name="
+         gamelist
+         ">
+         <textlist name="
+            item-list
+            ">
+            <size>0.40416667 0.733333333333333</size><!-- 194 352 -->
          </textlist>
-      </view>
-      <view name="gamelist">
-         <textlist name="item-list">
-            <size>0.404166666666667 0.733333333333333</size><!-- 194 352 -->
-         </textlist>
-         <video name="game-art">
-            <pos>0.92916667 0.441666666666667</pos><!-- 446 212 -->
+         <video name="
+            game-art
+            ">
+            <pos>0.93333333 0.48541667</pos><!-- 448 233 -->
+            <cropSize>0.34166667 0.60416667</cropSize><!-- 164 290 -->
          </video>
       </view>
    </variant>
-
-   <!-- Variants: List + Cover -->
-   <variant name="gamelist-list-cover">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageMaxSize>0.34166667 0.733333333333333</imageMaxSize><!-- 164 352 -->
-            <cropSize>0.34166667 0.733333333333333</cropSize><!-- 164 352 -->
-         </video>
-      </view>
-   </variant>
-
-   <!-- Variants: List + Screenshot -->
-   <variant name="gamelist-list-screenshot">
-      <view name="gamelist">
-         <video name="game-art">
-            <cropSize>0.34166667 0.733333333333333</cropSize><!-- 164 352 -->
+   <!-- Variants: List: Cover -->
+   <variant name="
+      gamelist-list-cover,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
+            <imageMaxSize>0.34166667 0.60416667</imageMaxSize><!-- 164 290 -->
          </video>
       </view>
    </variant>
