@@ -47,17 +47,47 @@ https://github.com/anthonycaccese/minui-menu-es-de
    All Views
    ///
    -->
-   <view name="system,gamelist">
-      <image name="background">
+   <view name="
+      system,
+      gamelist
+      ">
+      <image name="
+         background
+         ">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
          <color>${backgroundColor}</color>
          <tile>${backgroundTile}</tile>
          <stationary>always</stationary>
-         <zIndex>0</zIndex>
       </image>
-      <textlist name="item-list">
+      <clock name="
+         clock
+         ">
+         <opacity>0</opacity>
+      </clock>
+      <systemstatus name="
+         system-status
+         ">
+         <origin>1 0</origin>
+         <fontPath>${textlistFont}</fontPath>
+         <textRelativeScale>0.7</textRelativeScale>
+         <color>${systemstatusColor}</color>
+         <backgroundColor>${systemstatusBackgroundColor}</backgroundColor>
+         <backgroundCornerRadius>${cornerRadius}</backgroundCornerRadius>
+         <height>${systemStatusHeight}</height>
+         <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
+         <customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
+         <customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
+         <customIcon icon="icon_battery_charging">./_inc/images/icon-battery-charging.svg</customIcon>
+         <customIcon icon="icon_battery_full">./_inc/images/icon-battery-full.svg</customIcon>
+         <customIcon icon="icon_battery_high">./_inc/images/icon-battery-high.svg</customIcon>
+         <customIcon icon="icon_battery_medium">./_inc/images/icon-battery-medium.svg</customIcon>
+         <customIcon icon="icon_battery_low">./_inc/images/icon-battery-low.svg</customIcon>
+      </systemstatus>
+      <textlist name="
+         item-list
+         ">
          <origin>0 0</origin>
          <fontPath>${textlistFont}</fontPath>
          <fontSize>${listFontSize}</fontSize>
@@ -68,139 +98,230 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <primaryColor>${textlistUnselectedColor}</primaryColor>
          <secondaryColor>${textlistUnselectedColor}</secondaryColor>
          <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
-         <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
-         <systemNameSuffix>${textlistDisplaySystemSuffix}</systemNameSuffix>
-         <selectedBackgroundCornerRadius>${textlistSelectedBackgroundCornerRadius}</selectedBackgroundCornerRadius>
-         <zIndex>1</zIndex>
+         <systemNameSuffix>false</systemNameSuffix>
+         <selectedBackgroundCornerRadius>${cornerRadius}</selectedBackgroundCornerRadius>
       </textlist>
-      <helpsystem name="help">
-         <originDimmed>0.5 0</originDimmed>
-         <posDimmed>0.5 0.93</posDimmed>
+      <!-- Start: Help System -->
+      <helpsystem name="
+         help-system-view-left,
+         help-system-view-right,
+         help-gamelist-view-left,
+         help-gamelist-view-right,
+         help-menu-view"
+         >
          <fontPath>${helpsystemFont}</fontPath>
+         <fontSize>${helpsystemFontSize}</fontSize>
          <letterCase>${helpsystemLetterCase}</letterCase>
          <textColor>${helpsystemTextColor}</textColor>
          <iconColor>${helpsystemIconColor}</iconColor>
-         <!-- East Button -->
-         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_b_switch">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
-         <!-- South Button -->
-         <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
-         <!-- North Button -->
-         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="button_y_switch">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
-         <!-- West Button -->
-         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
-         <!-- Left Stick Click -->
-         <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
+         <backgroundCornerRadius>${cornerRadius}</backgroundCornerRadius>
       </helpsystem>
+      <helpsystem name="
+         help-system-view-left,
+         help-gamelist-view-left,
+         help-system-view-right,
+         help-gamelist-view-right
+         ">
+         <backgroundColor>${helpsystemBackgroundColor}</backgroundColor>
+      </helpsystem>
+      <helpsystem name="
+         help-system-view-left,
+         help-gamelist-view-left
+         ">
+         <origin>0 0.5</origin>
+      </helpsystem>
+      <helpsystem name="
+         help-system-view-right,
+         help-gamelist-view-right
+         ">
+         <origin>1 0.5</origin>
+      </helpsystem>
+      <helpsystem name="
+         help-menu-view
+         ">
+         <scope>menu</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.95</pos>
+         <fontPath>default</fontPath>
+         <entrySpacing>0.00833</entrySpacing>
+         <iconTextSpacing>0.00416</iconTextSpacing>
+         <fontSize>0.035</fontSize>
+      </helpsystem>
+      <!-- End: Help System -->
    </view>
-   <fontSize name="x-small">
+   <fontSize name="
+      x-small
+      ">
       <variables>
+         <systemStatusHeight>0.033333333333333</systemStatusHeight><!-- 16 -->
          <listFontSize>0.033333333333333</listFontSize><!-- 16 -->
          <listLineSpacing>2.2625</listLineSpacing>
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
       </variables>
    </fontSize>
-   <fontSize name="small">
+   <fontSize name="
+      small
+      ">
       <variables>
+         <systemStatusHeight>0.033333333333333</systemStatusHeight><!-- 16 -->
          <listFontSize>0.041666666666667</listFontSize><!-- 20 -->
          <listLineSpacing>2.0115</listLineSpacing>
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
       </variables>
    </fontSize>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
       <variables>
+         <systemStatusHeight>0.0375</systemStatusHeight><!-- 18 -->
          <listFontSize>0.05</listFontSize><!-- 24 -->
          <listLineSpacing>1.8875</listLineSpacing>
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
       </variables>
    </fontSize>
-   <fontSize name="large">
+   <fontSize name="
+      large
+      ">
       <variables>
+         <systemStatusHeight>0.04166667</systemStatusHeight><!-- 20 -->
          <listFontSize>0.058333333333333</listFontSize><!-- 28 -->
          <listLineSpacing>1.85</listLineSpacing>
+         <helpsystemFontSize>0.04166667</helpsystemFontSize><!-- 20 -->
       </variables>
    </fontSize>
-   <fontSize name="x-large">
+   <fontSize name="
+      x-large
+      ">
       <variables>
+         <systemStatusHeight>0.04166667</systemStatusHeight><!-- 20 -->
          <listFontSize>0.066666666666667</listFontSize><!-- 32 -->
          <listLineSpacing>1.9</listLineSpacing>
+         <helpsystemFontSize>0.04166667</helpsystemFontSize><!-- 20 -->
       </variables>
    </fontSize>
+
+   <!-- 
+   ///
+   System View
+   ///
+   -->
+   <view name="
+      system
+      ">
+      <helpsystem name="
+         help-system-view-left,
+         help-system-view-right
+         ">
+         <scope>view</scope>
+      </helpsystem>
+      <helpsystem name="
+         help-gamelist-view-left,
+         help-gamelist-view-right
+         ">
+         <scope>none</scope>
+      </helpsystem>
+   </view>
 
    <!--
    ///
    Gamelist View
    ///
    -->
-   <view name="gamelist">
-      <badges name="badges">
-         <origin>1 0</origin>
-         <lines>1</lines>
-         <direction>column</direction>
-         <itemsPerLine>4</itemsPerLine>
-         <slots>favorite,completed,collection,altemulator</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
-         <badgeIconColor>${badgeIconColor}</badgeIconColor>
-         <itemMargin>0 0.016666666666667</itemMargin><!-- 8 -->
-      </badges>
+   <view name="
+      gamelist
+      ">
+      <helpsystem name="
+         help-system-view-left,
+         help-system-view-right
+         ">
+         <scope>none</scope>
+      </helpsystem>
+      <helpsystem name="
+         help-gamelist-view-left,
+         help-gamelist-view-right
+         ">
+         <scope>view</scope>
+      </helpsystem>
    </view>
-
-   <!-- Variants: List -->
-   <variant name="gamelist-list">
-      <view name="system,gamelist">
-         <helpsystem name="help">
-            <origin>0 0.5</origin>
-         </helpsystem>
-      </view>
-   </variant>
-
-   <!-- Variants: List + Cover, List + Screenshot -->
-   <variant name="gamelist-list-cover,gamelist-list-screenshot">
-      <view name="system,gamelist">
-         <helpsystem name="help">
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.908333333333333</pos><!-- 50% 434 -->
-         </helpsystem>
-      </view>
-      <view name="gamelist">
-         <image name="game-art">
-            <origin>0.5 0.5</origin>
+   <!-- Variants: List: Boxart, List: Screenshot -->
+   <variant name="
+      gamelist-list-cover,
+      gamelist-list-screenshot,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
+            <origin>1 0.5</origin>
+            <delay>3</delay>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
             <color>${gameArtColor}</color>
             <saturation>${gameArtSaturation}</saturation>
             <brightness>${gameArtBrightness}</brightness>
-            <cornerRadius>${gameArtCornerRadius}</cornerRadius>
-         </image>
+            <imageCornerRadius>${cornerRadiusSecondary}</imageCornerRadius>
+            <videoCornerRadius>${cornerRadiusSecondary}</videoCornerRadius>
+         </video>
       </view>
    </variant>
-
-   <!-- Variants: List + Cover -->
-   <variant name="gamelist-list-cover">
-      <view name="gamelist">
-         <image name="game-art">
+   <!-- Variants: List: Boxart -->
+   <variant name="
+      gamelist-list-cover
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
             <imageType>cover</imageType>
-         </image>
+         </video>
       </view>
    </variant>
-
-   <!-- Variants: List + Screenshot -->
-   <variant name="gamelist-list-screenshot">
-      <view name="gamelist">
-         <image name="game-art">
+   <!-- Variants: List: Screenshot -->
+   <variant name="
+      gamelist-list-screenshot
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
             <imageType>screenshot</imageType>
-         </image>
+         </video>
+      </view>
+   </variant>
+   <!-- Variants: List: Title Screen -->
+   <variant name="
+      gamelist-list-titlescreen
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
+   <!-- Variants: List: Physical Media -->
+   <variant name="
+      gamelist-list-physicalmedia
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
+            <imageType>physicalmedia</imageType>
+         </video>
       </view>
    </variant>
 

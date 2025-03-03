@@ -5,12 +5,12 @@
    -->
    <colorScheme name="custom">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>${spacerImage}</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>${spacerImage}</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>${spacerImage}</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -20,21 +20,27 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>000000</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</textlistFont>
          <textlistSelectedColor>000000</textlistSelectedColor>
-         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
-         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
-         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <textlistSelectedBackgroundColor>f7fbf7</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>f7fbf7</textlistUnselectedColor>
+         <!-- Game Art -->
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>default</helpsystemFont>
+         <!-- System Status -->
+         <systemstatusColor>f7fbf7</systemstatusColor>
+         <systemstatusBackgroundColor>202420</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>202420</helpsystemBackgroundColor>
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</helpsystemFont>
+         <helpsystemIconColor>797b79</helpsystemIconColor>
+         <helpsystemTextColor>f7fbf7</helpsystemTextColor>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>454e45</helpsystemIconColor>
-         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
 </theme>
