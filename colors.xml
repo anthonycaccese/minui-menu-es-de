@@ -29,7 +29,7 @@
          <systemstatusBackgroundColor>202420</systemstatusBackgroundColor>
          <!-- Help System -->
          <helpsystemBackgroundColor>202420</helpsystemBackgroundColor>
-         <helpsystemIconColor>797b79</helpsystemIconColor>
+         <helpsystemIconColor>a1a2a1</helpsystemIconColor>
          <helpsystemTextColor>f7fbf7</helpsystemTextColor>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <!-- Tokens -->
@@ -64,12 +64,12 @@
          <gameArtBrightness>0</gameArtBrightness>
          <!-- System Status -->
          <systemstatusColor>000000</systemstatusColor>
-         <systemstatusBackgroundColor>eeeeee</systemstatusBackgroundColor>
+         <systemstatusBackgroundColor>dddddd</systemstatusBackgroundColor>
          <!-- Help System -->
-         <helpsystemBackgroundColor>eeeeee</helpsystemBackgroundColor>
+         <helpsystemBackgroundColor>dddddd</helpsystemBackgroundColor>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>777777</helpsystemIconColor>
-         <helpsystemTextColor>444444</helpsystemTextColor>
+         <helpsystemIconColor>111111</helpsystemIconColor>
+         <helpsystemTextColor>222222</helpsystemTextColor>
          <!-- Tokens -->
          <cornerRadius>0.05</cornerRadius>
          <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
@@ -120,7 +120,7 @@
          <helpsystemBackgroundColor>00000044</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/pocket-dmg/AnalogueOS-Regular.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
-         <helpsystemIconColor>D30002</helpsystemIconColor>
+         <helpsystemIconColor>ff2123</helpsystemIconColor>
          <helpsystemTextColor>F59403</helpsystemTextColor>
          <!-- Tokens -->
          <cornerRadius>0.05</cornerRadius>
@@ -158,7 +158,7 @@
          <systemstatusBackgroundColor>000000dd</systemstatusBackgroundColor>
          <!-- Help System -->
          <helpsystemBackgroundColor>000000dd</helpsystemBackgroundColor>
-         <helpsystemFont>default</helpsystemFont>
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>909090</helpsystemIconColor>
          <helpsystemTextColor>ffffff</helpsystemTextColor>

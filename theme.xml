@@ -104,25 +104,17 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <!-- Start: Help System -->
       <helpsystem name="
          help-system-view-left,
-         help-system-view-right,
          help-gamelist-view-left,
-         help-gamelist-view-right,
-         help-menu-view"
-         >
+         help-system-view-right,
+         help-gamelist-view-right
+         ">
          <fontPath>${helpsystemFont}</fontPath>
          <fontSize>${helpsystemFontSize}</fontSize>
          <letterCase>${helpsystemLetterCase}</letterCase>
          <textColor>${helpsystemTextColor}</textColor>
          <iconColor>${helpsystemIconColor}</iconColor>
-         <backgroundCornerRadius>${cornerRadius}</backgroundCornerRadius>
-      </helpsystem>
-      <helpsystem name="
-         help-system-view-left,
-         help-gamelist-view-left,
-         help-system-view-right,
-         help-gamelist-view-right
-         ">
          <backgroundColor>${helpsystemBackgroundColor}</backgroundColor>
+         <backgroundCornerRadius>${cornerRadius}</backgroundCornerRadius>
       </helpsystem>
       <helpsystem name="
          help-system-view-left,
@@ -142,10 +134,11 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <scope>menu</scope>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.95</pos>
-         <fontPath>default</fontPath>
-         <entrySpacing>0.00833</entrySpacing>
-         <iconTextSpacing>0.00416</iconTextSpacing>
-         <fontSize>0.035</fontSize>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundPadding>0.1 0.1</backgroundPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
       <!-- End: Help System -->
    </view>
@@ -183,20 +176,20 @@ https://github.com/anthonycaccese/minui-menu-es-de
       large
       ">
       <variables>
-         <systemStatusHeight>0.04166667</systemStatusHeight><!-- 20 -->
+         <systemStatusHeight>0.05</systemStatusHeight><!-- 24 -->
          <listFontSize>0.058333333333333</listFontSize><!-- 28 -->
          <listLineSpacing>1.85</listLineSpacing>
-         <helpsystemFontSize>0.04166667</helpsystemFontSize><!-- 20 -->
+         <helpsystemFontSize>0.05</helpsystemFontSize><!-- 24 -->
       </variables>
    </fontSize>
    <fontSize name="
       x-large
       ">
       <variables>
-         <systemStatusHeight>0.04166667</systemStatusHeight><!-- 20 -->
+         <systemStatusHeight>0.066666666666667</systemStatusHeight><!-- 32 -->
          <listFontSize>0.066666666666667</listFontSize><!-- 32 -->
          <listLineSpacing>1.9</listLineSpacing>
-         <helpsystemFontSize>0.04166667</helpsystemFontSize><!-- 20 -->
+         <helpsystemFontSize>0.0625</helpsystemFontSize><!-- 30 -->
       </variables>
    </fontSize>
 

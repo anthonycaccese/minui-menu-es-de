@@ -37,8 +37,8 @@ based on 640x480
          help-gamelist-view-left,
          help-gamelist-view-right
          ">
-         <entrySpacing>0.01172333</entrySpacing><!-- 10 -->
-         <iconTextSpacing>0.00468933</iconTextSpacing><!-- 4 -->
+         <entrySpacing>0.021875</entrySpacing><!-- 14 -->
+         <iconTextSpacing>0.009375</iconTextSpacing><!-- 6 -->
          <backgroundPadding>0.03282532 0.0375</backgroundPadding><!-- 28 18 -->
       </helpsystem>
       <helpsystem name="
