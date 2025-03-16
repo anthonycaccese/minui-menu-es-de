@@ -23,7 +23,8 @@ based on 853x480
          system-status
          ">
          <pos>0.94607268 0.09166667</pos><!-- 807 44 -->
-         <backgroundPadding>0.03282532 0.0375</backgroundPadding><!-- 28 18 -->
+         <backgroundHorizontalPadding>0.01641266 0.01641266</backgroundHorizontalPadding><!-- 14 14 -->
+         <backgroundVerticalPadding>0.01875 0.01875</backgroundVerticalPadding><!-- 9 9 -->
       </systemstatus>
       <textlist name="
          item-list
@@ -37,21 +38,22 @@ based on 853x480
          help-gamelist-view-left,
          help-gamelist-view-right
          ">
-         <entrySpacing>0.01172333</entrySpacing><!-- 10 -->
-         <iconTextSpacing>0.00468933</iconTextSpacing><!-- 4 -->
-         <backgroundPadding>0.03282532 0.0375</backgroundPadding><!-- 28 18 -->
+         <entrySpacing>0.01641266</entrySpacing><!-- 14 -->
+         <iconTextSpacing>0.007034</iconTextSpacing><!-- 6 -->
+         <backgroundHorizontalPadding>0.01172333 0.01758499</backgroundHorizontalPadding><!-- 10 15 -->
+         <backgroundVerticalPadding>0.01666667 0.01666667</backgroundVerticalPadding><!-- 8 8 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left,
          help-gamelist-view-left
          ">
-         <pos>0.05392732 0.904166666666667</pos><!-- 46 434 -->
+         <pos>0.04923798 0.904166666666667</pos><!-- 42 434 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-right,
          help-gamelist-view-right
          ">
-         <pos>0.94607268 0.904166666666667</pos><!-- 807 434 -->
+         <pos>0.94490035 0.904166666666667</pos><!-- 806 434 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left
@@ -127,7 +129,6 @@ based on 853x480
    Gamelist View
    ///
    -->
-   <!-- Variants: List -->
    <variant name="
       gamelist-list
       ">
@@ -141,7 +142,6 @@ based on 853x480
          </textlist>
       </view>
    </variant>
-   <!-- Variants: List: Cover, List: Screenshot -->
    <variant name="
       gamelist-list-cover,
       gamelist-list-screenshot,
@@ -164,7 +164,6 @@ based on 853x480
          </video>
       </view>
    </variant>
-   <!-- Variants: List: Cover -->
    <variant name="
       gamelist-list-cover,
       gamelist-list-titlescreen,

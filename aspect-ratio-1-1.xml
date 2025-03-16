@@ -23,7 +23,8 @@ based on 480x480
          system-status
          ">
          <pos>0.925 0.075</pos><!-- 444 36 -->
-         <backgroundPadding>0.05833333 0.0375</backgroundPadding><!-- 28 18 -->
+         <backgroundHorizontalPadding>0.02916667 0.02916667</backgroundHorizontalPadding><!-- 14 14 -->
+         <backgroundVerticalPadding>0.01875 0.01875</backgroundVerticalPadding><!-- 9 9 -->
       </systemstatus>
       <textlist name="
          item-list
@@ -38,18 +39,21 @@ based on 480x480
          help-gamelist-view-right
          ">
          <entrySpacing>0.02083333</entrySpacing><!-- 10 -->
-         <iconTextSpacing>0.00833333</iconTextSpacing><!-- 4 -->
-         <backgroundPadding>0.05833333 0.0375</backgroundPadding><!-- 28 18 -->
+         <iconTextSpacing>0.0125</iconTextSpacing><!-- 6 -->
+         <backgroundHorizontalPadding>0.02083333 0.03125</backgroundHorizontalPadding><!-- 10 15 -->
+         <backgroundVerticalPadding>0.01666667 0.01666667</backgroundVerticalPadding><!-- 8 8 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left,
-         help-gamelist-view-left">
-         <pos>0.075 0.89583333</pos><!-- 36 430 -->
+         help-gamelist-view-left
+         ">
+         <pos>0.06666667 0.89583333</pos><!-- 32 430 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-right,
-         help-gamelist-view-right">
-         <pos>0.925 0.89583333</pos><!-- 444 430 -->
+         help-gamelist-view-right
+         ">
+         <pos>0.92291667 0.89583333</pos><!-- 443 430 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left

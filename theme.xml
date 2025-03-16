@@ -70,7 +70,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          system-status
          ">
          <origin>1 0</origin>
-         <fontPath>${textlistFont}</fontPath>
+         <fontPath>${helpsystemFont}</fontPath>
          <textRelativeScale>0.7</textRelativeScale>
          <color>${systemstatusColor}</color>
          <backgroundColor>${systemstatusBackgroundColor}</backgroundColor>
@@ -115,6 +115,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <iconColor>${helpsystemIconColor}</iconColor>
          <backgroundColor>${helpsystemBackgroundColor}</backgroundColor>
          <backgroundCornerRadius>${cornerRadius}</backgroundCornerRadius>
+         <entryRelativeScale>0.65</entryRelativeScale>
       </helpsystem>
       <helpsystem name="
          help-system-view-left,
@@ -137,7 +138,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <iconColor>cccccc</iconColor>
          <textColor>cccccc</textColor>
          <backgroundColor>181818</backgroundColor>
-         <backgroundPadding>0.1 0.1</backgroundPadding>
+         <backgroundHorizontalPadding>0.05 0.05</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.05 0.05</backgroundVerticalPadding>
          <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
       <!-- End: Help System -->
@@ -159,17 +161,17 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <systemStatusHeight>0.033333333333333</systemStatusHeight><!-- 16 -->
          <listFontSize>0.041666666666667</listFontSize><!-- 20 -->
          <listLineSpacing>2.0115</listLineSpacing>
-         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+         <helpsystemFontSize>0.041666666666667</helpsystemFontSize><!-- 20 -->
       </variables>
    </fontSize>
    <fontSize name="
       medium
       ">
       <variables>
-         <systemStatusHeight>0.0375</systemStatusHeight><!-- 18 -->
+         <systemStatusHeight>0.04166667</systemStatusHeight><!-- 20 -->
          <listFontSize>0.05</listFontSize><!-- 24 -->
          <listLineSpacing>1.8875</listLineSpacing>
-         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+         <helpsystemFontSize>0.05</helpsystemFontSize><!-- 24 -->
       </variables>
    </fontSize>
    <fontSize name="
@@ -179,17 +181,17 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <systemStatusHeight>0.05</systemStatusHeight><!-- 24 -->
          <listFontSize>0.058333333333333</listFontSize><!-- 28 -->
          <listLineSpacing>1.85</listLineSpacing>
-         <helpsystemFontSize>0.05</helpsystemFontSize><!-- 24 -->
+         <helpsystemFontSize>0.058333333333333</helpsystemFontSize><!-- 28 -->
       </variables>
    </fontSize>
    <fontSize name="
       x-large
       ">
       <variables>
-         <systemStatusHeight>0.066666666666667</systemStatusHeight><!-- 32 -->
+         <systemStatusHeight>0.058333333333333</systemStatusHeight><!-- 28 -->
          <listFontSize>0.066666666666667</listFontSize><!-- 32 -->
          <listLineSpacing>1.9</listLineSpacing>
-         <helpsystemFontSize>0.0625</helpsystemFontSize><!-- 30 -->
+         <helpsystemFontSize>0.066666666666667</helpsystemFontSize><!-- 32 -->
       </variables>
    </fontSize>
 

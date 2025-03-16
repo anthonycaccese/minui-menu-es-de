@@ -23,7 +23,8 @@ based on 640x480
          system-status
          ">
          <pos>0.928125 0.09166667</pos><!-- 594 44 -->
-         <backgroundPadding>0.04375 0.0375</backgroundPadding><!-- 28 18 -->
+         <backgroundHorizontalPadding>0.021875 0.021875</backgroundHorizontalPadding><!-- 14 14 -->
+         <backgroundVerticalPadding>0.01875 0.01875</backgroundVerticalPadding><!-- 9 9 -->
       </systemstatus>
       <textlist name="
          item-list
@@ -38,20 +39,21 @@ based on 640x480
          help-gamelist-view-right
          ">
          <entrySpacing>0.021875</entrySpacing><!-- 14 -->
-         <iconTextSpacing>0.009375</iconTextSpacing><!-- 6 -->
-         <backgroundPadding>0.03282532 0.0375</backgroundPadding><!-- 28 18 -->
+         <iconTextSpacing>0.0125</iconTextSpacing><!-- 8 -->
+         <backgroundHorizontalPadding>0.015625 0.0234375</backgroundHorizontalPadding><!-- 10 15 -->
+         <backgroundVerticalPadding>0.01666667 0.01666667</backgroundVerticalPadding><!-- 8 8 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left,
          help-gamelist-view-left
          ">
-         <pos>0.071875 0.904166666666667</pos><!-- 46 434 -->
+         <pos>0.065625 0.904166666666667</pos><!-- 42 434 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-right,
          help-gamelist-view-right
          ">
-         <pos>0.928125 0.904166666666667</pos><!-- 594 434 -->
+         <pos>0.9265625 0.904166666666667</pos><!-- 593 434 -->
       </helpsystem>
       <helpsystem name="
          help-system-view-left
@@ -141,7 +143,6 @@ based on 640x480
          </textlist>
       </view>
    </variant>
-   <!-- Variants: List: Cover, List: Screenshot -->
    <variant name="
       gamelist-list-cover,
       gamelist-list-screenshot,
