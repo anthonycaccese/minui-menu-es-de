@@ -1,22 +1,12 @@
 <theme>
-   <colorScheme name="dark-bold,light-bold">
-      <variables>
-         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</textlistFont>
-      </variables>
-   </colorScheme>
-   <colorScheme name="dark-normal,light-normal">
-      <variables>
-         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
-      </variables>
-   </colorScheme>
    <colorScheme name="dark-bold,dark-normal">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>${spacerImage}</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>${spacerImage}</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>${spacerImage}</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -26,30 +16,35 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>000000</backgroundColor>
+         <!-- Textlist -->
          <textlistSelectedColor>000000</textlistSelectedColor>
-         <textlistSelectedBackgroundColor>F7FBF7</textlistSelectedBackgroundColor>
-         <textlistUnselectedColor>F7FBF7</textlistUnselectedColor>
-         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <textlistSelectedBackgroundColor>f7fbf7</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>f7fbf7</textlistUnselectedColor>
+         <!-- Game Art -->
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>default</helpsystemFont>
+         <!-- System Status -->
+         <systemstatusColor>f7fbf7</systemstatusColor>
+         <systemstatusBackgroundColor>202420</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>202420</helpsystemBackgroundColor>
+         <helpsystemIconColor>a1a2a1</helpsystemIconColor>
+         <helpsystemTextColor>f7fbf7</helpsystemTextColor>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>454e45</helpsystemIconColor>
-         <helpsystemTextColor>F7FBF7</helpsystemTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="light-bold,light-normal">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>${spacerImage}</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>${spacerImage}</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>${spacerImage}</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>${spacerImage}</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>${spacerImage}</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -58,31 +53,48 @@
          <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
-         <backgroundColor>F7FBF7</backgroundColor>
-         <textlistSelectedColor>F7FBF7</textlistSelectedColor>
+         <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
          <textlistSelectedBackgroundColor>000000</textlistSelectedBackgroundColor>
-         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>000000</textlistUnselectedColor>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>default</helpsystemFont>
+         <!-- System Status -->
+         <systemstatusColor>000000</systemstatusColor>
+         <systemstatusBackgroundColor>dddddd</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>dddddd</helpsystemBackgroundColor>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
-         <helpsystemIconColor>454e45</helpsystemIconColor>
-         <helpsystemTextColor>000000</helpsystemTextColor>
-         <badgeIconColor>454e45</badgeIconColor>
+         <helpsystemIconColor>111111</helpsystemIconColor>
+         <helpsystemTextColor>222222</helpsystemTextColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-bold,light-bold">
+      <variables>
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</textlistFont>
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Bold.otf</helpsystemFont>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-normal,light-normal">
+      <variables>
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</helpsystemFont>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_pocket-dmg">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -92,31 +104,37 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/pocket-dmg/AnalogueOS-Regular.otf</textlistFont>
          <textlistSelectedColor>ffffff</textlistSelectedColor>
          <textlistSelectedBackgroundColor>F59403</textlistSelectedBackgroundColor>
-         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>F9C19F99</textlistUnselectedColor>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
+         <!-- System Status -->
+         <systemstatusColor>F59403</systemstatusColor>
+         <systemstatusBackgroundColor>00000044</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>00000044</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/pocket-dmg/AnalogueOS-Regular.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
-         <helpsystemIconColor>D30002</helpsystemIconColor>
+         <helpsystemIconColor>ff2123</helpsystemIconColor>
          <helpsystemTextColor>F59403</helpsystemTextColor>
-         <badgeIconColor>4DD8EB</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_pocket-micro">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -126,31 +144,37 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
          <textlistSelectedColor>1a1a1a</textlistSelectedColor>
-         <textlistSelectedBackgroundColor>D0D0D0</textlistSelectedBackgroundColor>
-         <textlistSelectedBackgroundCornerRadius>0.05</textlistSelectedBackgroundCornerRadius>
+         <textlistSelectedBackgroundColor>ffffff</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>D0D0D0</textlistUnselectedColor>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
-         <helpsystemFont>default</helpsystemFont>
+         <!-- System Status -->
+         <systemstatusColor>ffffff</systemstatusColor>
+         <systemstatusBackgroundColor>000000dd</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>000000dd</helpsystemBackgroundColor>
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</helpsystemFont>
          <helpsystemLetterCase>capitalize</helpsystemLetterCase>
          <helpsystemIconColor>909090</helpsystemIconColor>
-         <helpsystemTextColor>909090</helpsystemTextColor>
-         <badgeIconColor>D0D0D0</badgeIconColor>
+         <helpsystemTextColor>ffffff</helpsystemTextColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_amber-terminal">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -160,31 +184,37 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/amber-terminal/Fiery_Turk.ttf</textlistFont>
          <textlistSelectedColor>FF8C3C99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>6A3C1E99</textlistSelectedBackgroundColor>
-         <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>6A3C1E99</textlistUnselectedColor>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>FF8C3C99</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.01</gameArtCornerRadius>
+         <!-- System Status -->
+         <systemstatusColor>FF8C3C99</systemstatusColor>
+         <systemstatusBackgroundColor>000000dd</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>000000dd</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/amber-terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>FF8C3C99</helpsystemIconColor>
          <helpsystemTextColor>AD663199</helpsystemTextColor>
-         <badgeIconColor>AD663199</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0</cornerRadius>
+         <cornerRadiusSecondary>0</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_green-terminal">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -194,31 +224,37 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/green-terminal/Fiery_Turk.ttf</textlistFont>
          <textlistSelectedColor>3bbf5e99</textlistSelectedColor>
          <textlistSelectedBackgroundColor>033d1299</textlistSelectedBackgroundColor>
-         <textlistSelectedBackgroundCornerRadius>0</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>033d1299</textlistUnselectedColor>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>3bbf5e99</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.01</gameArtCornerRadius>
+         <!-- System Status -->
+         <systemstatusColor>3bbf5e99</systemstatusColor>
+         <systemstatusBackgroundColor>000000dd</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>000000dd</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/green-terminal/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>033d1299</helpsystemIconColor>
          <helpsystemTextColor>3bbf5e99</helpsystemTextColor>
-         <badgeIconColor>08992e99</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0</cornerRadius>
+         <cornerRadiusSecondary>0</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_cyberpunk">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 1</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 1</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 1</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 1</backgroundCropPos-3-2>
@@ -228,31 +264,38 @@
          <backgroundCropPos-1-1>0.5 1</backgroundCropPos-1-1>
          <backgroundColor>ffffff</backgroundColor>
          <backgroundTile>false</backgroundTile>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/cyberpunk/Valorax-lg25V.otf</textlistFont>
          <textlistSelectedColor>fafafa</textlistSelectedColor>
          <textlistSelectedBackgroundColor>19C2E0</textlistSelectedBackgroundColor>
-         <textlistSelectedBackgroundCornerRadius>0.01</textlistSelectedBackgroundCornerRadius>
          <textlistUnselectedColor>000000</textlistUnselectedColor>
-         <textlistDisplaySystemSuffix>false</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>ffffff</gameArtColor>
          <gameArtSaturation>1</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
          <gameArtCornerRadius>0.005</gameArtCornerRadius>
+         <!-- System Status -->
+         <systemstatusColor>111111</systemstatusColor>
+         <systemstatusBackgroundColor>00000000</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>00000000</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/cyberpunk/Sddystopiandemo-GO7xa.otf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>19C2E0</helpsystemIconColor>
          <helpsystemTextColor>111111</helpsystemTextColor>
-         <badgeIconColor>19C2E0</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0.01</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_fallout">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/fallout/fallout-16-9.jpg</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/fallout/fallout-16-10.jpg</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/fallout/fallout-3-2.jpg</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -262,31 +305,37 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/fallout/monofonto-rg.otf</textlistFont>
          <textlistSelectedColor>35f78a80</textlistSelectedColor>
          <textlistSelectedBackgroundColor>35f78a4D</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>35f78a80</textlistUnselectedColor>
-         <textlistSelectedBackgroundCornerRadius>0.0</textlistSelectedBackgroundCornerRadius>
-         <textlistDisplaySystemSuffix>true</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>35f78a99</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
-         <gameArtCornerRadius>0.02</gameArtCornerRadius>
+         <!-- System Status -->
+         <systemstatusColor>35f78a80</systemstatusColor>
+         <systemstatusBackgroundColor>00000000</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>00000000</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/fallout/monofonto-rg.otf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>35f78a80</helpsystemIconColor>
          <helpsystemTextColor>35f78a80</helpsystemTextColor>
-         <badgeIconColor>35f78a80</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0</cornerRadius>
+         <cornerRadiusSecondary>0.02</cornerRadiusSecondary>
       </variables>
    </colorScheme>
    <colorScheme name="user-created_gameboy-dmg">
       <variables>
+         <!-- Background -->
          <backgroundPath-16-9>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
          <backgroundPath-16-10>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPathSystem-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPathSystem-4-3>
-         <backgroundPathGamelist-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPathGamelist-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
@@ -296,21 +345,28 @@
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
          <textlistFont>./_inc/color-schemes/gameboy-dmg/Gbboot-ALpM.ttf</textlistFont>
          <textlistSelectedColor>9bbc0f</textlistSelectedColor>
          <textlistSelectedBackgroundColor>30623066</textlistSelectedBackgroundColor>
          <textlistUnselectedColor>30623099</textlistUnselectedColor>
-         <textlistSelectedBackgroundCornerRadius>0.0</textlistSelectedBackgroundCornerRadius>
-         <textlistDisplaySystemSuffix>true</textlistDisplaySystemSuffix>
+         <!-- Game Art -->
          <gameArtColor>9bbc0f66</gameArtColor>
          <gameArtSaturation>0</gameArtSaturation>
          <gameArtBrightness>0</gameArtBrightness>
          <gameArtCornerRadius>0.0</gameArtCornerRadius>
+         <!-- System Status -->
+         <systemstatusColor>306230</systemstatusColor>
+         <systemstatusBackgroundColor>00000000</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemBackgroundColor>00000000</helpsystemBackgroundColor>
          <helpsystemFont>./_inc/color-schemes/gameboy-dmg/Gbboot-ALpM.ttf</helpsystemFont>
          <helpsystemLetterCase>uppercase</helpsystemLetterCase>
          <helpsystemIconColor>30623099</helpsystemIconColor>
          <helpsystemTextColor>30623099</helpsystemTextColor>
-         <badgeIconColor>9bbc0f00</badgeIconColor>
+         <!-- Tokens -->
+         <cornerRadius>0</cornerRadius>
+         <cornerRadiusSecondary>0</cornerRadiusSecondary>
       </variables>
    </colorScheme>
 </theme>

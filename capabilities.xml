@@ -96,7 +96,7 @@
       <selectable>true</selectable>
    </variant>
    <variant name="gamelist-list-cover">
-      <label>List + Boxart</label>
+      <label>List: Boxart</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
@@ -105,11 +105,29 @@
       </override>
    </variant>
    <variant name="gamelist-list-screenshot">
-      <label>List + Screenshot</label>
+      <label>List: Screenshot</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
          <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-list</useVariant>
+      </override>
+   </variant>
+   <variant name="gamelist-list-titlescreen">
+      <label>List: Title Screen</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>titlescreen</mediaType>
+         <useVariant>gamelist-list</useVariant>
+      </override>
+   </variant>
+   <variant name="gamelist-list-physicalmedia">
+      <label>List: Physical Media</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>physicalmedia</mediaType>
          <useVariant>gamelist-list</useVariant>
       </override>
    </variant>
