@@ -167,6 +167,46 @@
          <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
+   <colorScheme name="user-created_pocket-ace-light">
+      <variables>
+         <!-- Background -->
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
+         <backgroundTile>false</backgroundTile>
+         <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>DE582D</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>163E6E</textlistUnselectedColor>
+         <!-- Game Art -->
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <!-- System Status -->
+         <systemstatusColor>163E6E</systemstatusColor>
+         <systemstatusBackgroundColor>fafafa</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</helpsystemFont>
+         <helpsystemBackgroundColor>fafafa</helpsystemBackgroundColor>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>163E6E</helpsystemIconColor>
+         <helpsystemTextColor>091a2e</helpsystemTextColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
+      </variables>
+   </colorScheme>
    <colorScheme name="user-created_amber-terminal">
       <variables>
          <!-- Background -->

@@ -48,6 +48,9 @@
    <colorScheme name="user-created_pocket-micro">
       <label>Pocket Micro</label>
    </colorScheme>
+   <colorScheme name="user-created_pocket-ace-light">
+      <label>Pocket Ace (Light)</label>
+   </colorScheme>
    <colorScheme name="user-created_amber-terminal">
       <label>Amber Terminal</label>
    </colorScheme>
