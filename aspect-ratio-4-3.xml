@@ -147,7 +147,8 @@ based on 640x480
       gamelist-list-cover,
       gamelist-list-screenshot,
       gamelist-list-titlescreen,
-      gamelist-list-physicalmedia
+      gamelist-list-physicalmedia,
+      gamelist-list-miximage
       ">
       <view name="
          gamelist
@@ -169,7 +170,8 @@ based on 640x480
    <variant name="
       gamelist-list-cover,
       gamelist-list-titlescreen,
-      gamelist-list-physicalmedia
+      gamelist-list-physicalmedia,
+      gamelist-list-miximage
       ">
       <view name="
          gamelist

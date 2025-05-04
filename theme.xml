@@ -269,7 +269,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
       gamelist-list-cover,
       gamelist-list-screenshot,
       gamelist-list-titlescreen,
-      gamelist-list-physicalmedia
+      gamelist-list-physicalmedia,
+      gamelist-list-miximage
       ">
       <view name="
          gamelist
@@ -278,7 +279,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
             game-art
             ">
             <origin>1 0.5</origin>
-            <delay>3</delay>
+            <delay>4</delay>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
             <color>${gameArtColor}</color>
@@ -342,6 +343,20 @@ https://github.com/anthonycaccese/minui-menu-es-de
             game-art
             ">
             <imageType>physicalmedia</imageType>
+         </video>
+      </view>
+   </variant>
+   <!-- Variants: List: Miximage -->
+   <variant name="
+      gamelist-list-miximage
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
+            <imageType>miximage</imageType>
          </video>
       </view>
    </variant>
