@@ -90,17 +90,17 @@
    <colorScheme name="user-created_pocket-dmg">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/pocket-dmg/background-pocket-dmg.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
@@ -130,17 +130,17 @@
    <colorScheme name="user-created_pocket-micro">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/pocket-micro/background-pocket-micro.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
@@ -167,20 +167,60 @@
          <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
+   <colorScheme name="user-created_pocket-ace-dark">
+      <variables>
+         <!-- Background -->
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
+         <backgroundTile>false</backgroundTile>
+         <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>DE582D</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>B8C2CC</textlistUnselectedColor>
+         <!-- Game Art -->
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <!-- System Status -->
+         <systemstatusColor>e5e8ec</systemstatusColor>
+         <systemstatusBackgroundColor>000000</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</helpsystemFont>
+         <helpsystemBackgroundColor>000000</helpsystemBackgroundColor>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>EAA548</helpsystemIconColor>
+         <helpsystemTextColor>e5e8ec</helpsystemTextColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
+      </variables>
+   </colorScheme>
    <colorScheme name="user-created_pocket-ace-light">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-light/background-pocket-ace-light.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
@@ -207,20 +247,60 @@
          <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
       </variables>
    </colorScheme>
+   <colorScheme name="user-created_pocket-ace-retro">
+      <variables>
+         <!-- Background -->
+         <backgroundPath-16-9>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-16-9>
+         <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
+         <backgroundPath-16-10>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-16-10>
+         <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
+         <backgroundPath-4-3>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-4-3>
+         <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
+         <backgroundPath-3-2>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-3-2>
+         <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         <backgroundPath-19_5-9>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-19_5-9>
+         <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
+         <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-1-1>
+         <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
+         <backgroundTile>false</backgroundTile>
+         <backgroundColor>ffffff</backgroundColor>
+         <!-- Textlist -->
+         <textlistFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</textlistFont>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectedBackgroundColor>A13C6A</textlistSelectedBackgroundColor>
+         <textlistUnselectedColor>504639</textlistUnselectedColor>
+         <!-- Game Art -->
+         <gameArtColor>ffffff</gameArtColor>
+         <gameArtSaturation>1</gameArtSaturation>
+         <gameArtBrightness>0</gameArtBrightness>
+         <!-- System Status -->
+         <systemstatusColor>504639</systemstatusColor>
+         <systemstatusBackgroundColor>DFCDB3</systemstatusBackgroundColor>
+         <!-- Help System -->
+         <helpsystemFont>./_inc/color-schemes/_default/VAG Rounded Std Thin.otf</helpsystemFont>
+         <helpsystemBackgroundColor>DFCDB3</helpsystemBackgroundColor>
+         <helpsystemLetterCase>uppercase</helpsystemLetterCase>
+         <helpsystemIconColor>A13C6A</helpsystemIconColor>
+         <helpsystemTextColor>504639</helpsystemTextColor>
+         <!-- Tokens -->
+         <cornerRadius>0.05</cornerRadius>
+         <cornerRadiusSecondary>0.005</cornerRadiusSecondary>
+      </variables>
+   </colorScheme>
    <colorScheme name="user-created_amber-terminal">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/amber-terminal/background-amber-terminal.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
@@ -250,17 +330,17 @@
    <colorScheme name="user-created_green-terminal">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/green-terminal/background.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/green-terminal/background.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/green-terminal/background.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/green-terminal/background.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/green-terminal/background.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/green-terminal/background-green-terminal.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/green-terminal/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
@@ -331,17 +411,17 @@
    <colorScheme name="user-created_fallout">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/fallout/fallout-16-9.jpg</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/fallout/background-16-9.jpg</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/fallout/fallout-16-10.jpg</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/fallout/background-16-10.jpg</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/fallout/fallout-4-3.jpg</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/fallout/background-4-3.jpg</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/fallout/fallout-3-2.jpg</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/fallout/background-3-2.jpg</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/fallout/fallout-19_5-9.jpg</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/fallout/background-19_5-9.jpg</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/fallout/fallout-1-1.jpg</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/fallout/background-1-1.jpg</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
@@ -371,17 +451,17 @@
    <colorScheme name="user-created_gameboy-dmg">
       <variables>
          <!-- Background -->
-         <backgroundPath-16-9>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-9>
+         <backgroundPath-16-9>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-16-9>
          <backgroundCropPos-16-9>0.5 0.5</backgroundCropPos-16-9>
-         <backgroundPath-16-10>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-16-10>
+         <backgroundPath-16-10>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-16-10>
          <backgroundCropPos-16-10>0.5 0.5</backgroundCropPos-16-10>
-         <backgroundPath-4-3>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-4-3>
+         <backgroundPath-4-3>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-4-3>
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
-         <backgroundPath-3-2>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-3-2>
+         <backgroundPath-3-2>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
-         <backgroundPath-19_5-9>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-19_5-9>
+         <backgroundPath-19_5-9>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
-         <backgroundPath-1-1>./_inc/color-schemes/gameboy-dmg/overlay.png</backgroundPath-1-1>
+         <backgroundPath-1-1>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
