@@ -161,7 +161,7 @@ based on 853x480
             game-art
             ">
             <pos>0.94607268 0.50625</pos><!-- 807 243 -->
-            <cropSize>0.31652989 0.60416667</cropSize><!-- 270 290 -->
+            <maxSize>0.31652989 0.60416667</maxSize><!-- 270 290 -->
          </video>
       </view>
    </variant>
