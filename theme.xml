@@ -279,7 +279,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
             game-art
             ">
             <origin>1 0.5</origin>
-            <delay>2</delay>
+            <delay>3</delay>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
             <color>${gameArtColor}</color>
