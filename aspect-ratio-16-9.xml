@@ -149,35 +149,31 @@ based on 853x480
       gamelist-list-physicalmedia,
       gamelist-list-miximage
       ">
+      <fontSize name="x-small,small,medium">
+         <variables>
+            <itemListSize>0.4091442 0.733333333333333</itemListSize><!-- 349 352 -->
+            <gameArtSize>0.41031653 0.60416667</gameArtSize><!-- 350 290 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <itemListSize>0.5052755 0.733333333333333</itemListSize><!-- 431 352 -->
+            <gameArtSize>0.31652989 0.60416667</gameArtSize><!-- 270 290 -->
+         </variables>
+      </fontSize>
       <view name="
          gamelist
          ">
          <textlist name="
             item-list
             ">
-            <size>0.5052755 0.733333333333333</size><!-- 431 352 -->
+            <size>${itemListSize}</size>
          </textlist>
          <video name="
             game-art
             ">
             <pos>0.94607268 0.50625</pos><!-- 807 243 -->
-            <maxSize>0.31652989 0.60416667</maxSize><!-- 270 290 -->
-         </video>
-      </view>
-   </variant>
-   <variant name="
-      gamelist-list-cover,
-      gamelist-list-titlescreen,
-      gamelist-list-physicalmedia,
-      gamelist-list-miximage
-      ">
-      <view name="
-         gamelist
-         ">
-         <video name="
-            game-art
-            ">
-            <imageMaxSize>0.31652989 0.60416667</imageMaxSize><!-- 270 290 -->
+            <maxSize>${gameArtSize}</maxSize>
          </video>
       </view>
    </variant>

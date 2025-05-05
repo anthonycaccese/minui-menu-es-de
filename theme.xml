@@ -279,7 +279,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
             game-art
             ">
             <origin>1 0.5</origin>
-            <delay>4</delay>
+            <delay>2</delay>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
             <color>${gameArtColor}</color>
@@ -287,6 +287,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
             <brightness>${gameArtBrightness}</brightness>
             <imageCornerRadius>${cornerRadiusSecondary}</imageCornerRadius>
             <videoCornerRadius>${cornerRadiusSecondary}</videoCornerRadius>
+            <pillarboxes>false</pillarboxes>
+            <fadeInTime>0</fadeInTime>
          </video>
       </view>
    </variant>
