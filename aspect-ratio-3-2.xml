@@ -162,24 +162,7 @@ based on 720x480
             game-art
             ">
             <pos>0.928125 0.50625</pos><!-- 594 243 -->
-            <cropSize>0.3625 0.60416667</cropSize><!-- 232 290 -->
-         </video>
-      </view>
-   </variant>
-   <!-- Variants: List: Cover -->
-   <variant name="
-      gamelist-list-cover,
-      gamelist-list-titlescreen,
-      gamelist-list-physicalmedia,
-      gamelist-list-miximage
-      ">
-      <view name="
-         gamelist
-         ">
-         <video name="
-            game-art
-            ">
-            <imageMaxSize>0.3625 0.60416667</imageMaxSize><!-- 232 290 -->
+            <maxSize>0.3625 0.60416667</maxSize><!-- 232 290 -->
          </video>
       </view>
    </variant>
