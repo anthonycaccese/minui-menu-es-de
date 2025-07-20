@@ -415,5 +415,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
    <aspectRatio name="1:1">
       <include>./aspect-ratio-1-1.xml</include>
    </aspectRatio>
+   <aspectRatio name="5:3_vertical">
+      <include>./aspect-ratio-5-3-vert.xml</include>
+   </aspectRatio>
 
 </theme>

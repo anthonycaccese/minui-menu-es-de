@@ -1,0 +1,200 @@
+<!-- 
+5:3 vertical aspect ratio
+based on 288x480
+-->
+<theme>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="
+      system,
+      gamelist
+      ">
+      <image name="
+         background
+         ">
+         <path>${backgroundPath-5-3-vert}</path>
+         <cropPos>${backgroundCropPos-5-3-vert}</cropPos>
+      </image>
+      <systemstatus name="
+         system-status
+         ">
+         <pos>0.90277778 0.05833333</pos><!-- 260 28 -->
+         <backgroundHorizontalPadding>0.02777778 0.02777778</backgroundHorizontalPadding><!-- 8 8 -->
+         <backgroundVerticalPadding>0.01666667 0.01666667</backgroundVerticalPadding><!-- 8 8 -->
+      </systemstatus>
+      <textlist name="
+         item-list
+         ">
+         <origin>0 1</origin>
+         <pos>0.10416667 0.83333333</pos><!-- 30 400 -->
+         <selectedBackgroundMargins>0.03472222 0.03472222</selectedBackgroundMargins><!-- 10 10 -->
+      </textlist>
+      <helpsystem name="
+         help-system-view-left,
+         help-system-view-right,
+         help-gamelist-view-left,
+         help-gamelist-view-right
+         ">
+         <entrySpacing>0.02777778</entrySpacing><!-- 8 -->
+         <iconTextSpacing>0.01041667</iconTextSpacing><!-- 3 -->
+         <backgroundHorizontalPadding>0.02777778 0.03472222</backgroundHorizontalPadding><!-- 8 10 -->
+         <backgroundVerticalPadding>0.01666667 0.01666667</backgroundVerticalPadding><!-- 8 8 -->
+      </helpsystem>
+      <helpsystem name="
+         help-system-view-left,
+         help-gamelist-view-left
+         ">
+         <origin>0 1</origin>
+         <pos>0.09722222 0.94166667</pos><!-- 28 452 -->
+      </helpsystem>
+      <helpsystem name="
+         help-system-view-right,
+         help-gamelist-view-right
+         ">
+         <origin>1 1</origin>
+         <pos>0.89583333 0.94166667</pos><!-- 258 452 -->
+      </helpsystem>
+      <helpsystem name="
+         help-system-view-left
+         ">
+         <entries>${helpSystemViewEntriesLeft}</entries>
+      </helpsystem>
+      <helpsystem name="
+         help-system-view-right
+         ">
+         <entries>${helpSystemViewEntriesRight}</entries>
+      </helpsystem>
+      <helpsystem name="
+         help-gamelist-view-left
+         ">
+         <entries>${helpGamelistViewEntriesLeft}</entries>
+      </helpsystem>
+      <helpsystem name="
+         help-gamelist-view-right
+         ">
+         <entries>${helpGamelistViewEntriesRight}</entries>
+      </helpsystem>
+      <text name="
+         view-name
+         ">
+         <origin>0 0</origin>
+         <pos>0.10416667 0.05416667</pos><!-- 30 26 -->
+         <fontPath>${helpsystemFont}</fontPath>
+         <fontSize>${systemStatusHeight}</fontSize>
+         <color>${systemstatusColor}</color>
+         <letterCase>uppercase</letterCase>
+      </text>
+   </view>
+   <fontSize name="
+      x-small,
+      small
+      ">
+      <variables>
+         <helpSystemViewEntriesLeft>start,x</helpSystemViewEntriesLeft>
+         <helpSystemViewEntriesRight>a</helpSystemViewEntriesRight>
+         <helpGamelistViewEntriesLeft>back,start</helpGamelistViewEntriesLeft>
+         <helpGamelistViewEntriesRight>a</helpGamelistViewEntriesRight>
+      </variables>
+   </fontSize>
+   <fontSize name="
+      medium
+      ">
+      <variables>
+         <helpSystemViewEntriesLeft>start,x</helpSystemViewEntriesLeft>
+         <helpSystemViewEntriesRight>a</helpSystemViewEntriesRight>
+         <helpGamelistViewEntriesLeft>back,start</helpGamelistViewEntriesLeft>
+         <helpGamelistViewEntriesRight>a</helpGamelistViewEntriesRight>
+      </variables>
+   </fontSize>
+   <fontSize name="
+      large,
+      x-large
+      ">
+      <variables>
+         <helpSystemViewEntriesLeft>start</helpSystemViewEntriesLeft>
+         <helpSystemViewEntriesRight>a</helpSystemViewEntriesRight>
+         <helpGamelistViewEntriesLeft>back</helpGamelistViewEntriesLeft>
+         <helpGamelistViewEntriesRight>a</helpGamelistViewEntriesRight>
+      </variables>
+   </fontSize>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="
+      system
+      ">
+      <text name="
+         view-name
+         ">
+         <text>Systems</text>
+      </text>
+      <textlist name="
+         item-list
+         ">
+         <size>0.79166667 0.66666667</size><!-- 228 320 -->
+      </textlist>
+   </view>
+
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
+   <view name="
+      gamelist
+      ">
+      <text name="
+         view-name
+         ">
+         <text>${system.name}</text>
+      </text>
+   </view>
+   <!-- Variants: List -->
+   <variant name="
+      gamelist-list
+      ">
+      <view name="
+         gamelist
+         ">
+         <textlist name="
+            item-list
+            ">
+            <size>0.79166667 0.66666667</size><!-- 228 320 -->
+         </textlist>
+      </view>
+   </variant>
+   <!-- Variants: List: Cover, List: Screenshot -->
+   <variant name="
+      gamelist-list-cover,
+      gamelist-list-screenshot,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia,
+      gamelist-list-miximage
+      ">
+      <view name="
+         gamelist
+         ">
+         <textlist name="
+            item-list
+            ">
+            <pos>0.10416667 0.83541667</pos><!-- 30 401 -->
+            <size>0.79166667 0.44166667</size><!-- 228 212 -->
+         </textlist>
+         <video name="
+            game-art
+            ">
+            <origin>0 0.5</origin>
+            <pos>0.10416667 0.25</pos><!-- 30 120 -->
+            <maxSize>0.79166667 0.20833333</maxSize><!-- 228 100 -->
+         </video>
+      </view>
+   </variant>
+
+</theme>

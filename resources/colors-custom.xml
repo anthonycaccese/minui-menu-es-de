@@ -18,6 +18,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>${spacerImage}</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>000000</backgroundColor>
          <!-- Textlist -->

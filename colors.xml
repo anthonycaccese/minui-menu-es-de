@@ -14,6 +14,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>${spacerImage}</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>000000</backgroundColor>
          <!-- Textlist -->
@@ -52,6 +54,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>${spacerImage}</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -102,6 +106,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/pocket-dmg/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -142,6 +148,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/pocket-micro/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -182,6 +190,8 @@
          <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/pocket-ace-dark/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.575 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -222,6 +232,8 @@
          <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/pocket-ace-light/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.575 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -262,6 +274,8 @@
          <backgroundCropPos-19_5-9>0.5 0.0005</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.3 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/pocket-ace-retro/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.575 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -302,6 +316,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/amber-terminal/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -342,6 +358,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/green-terminal/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/green-terminal/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -382,6 +400,8 @@
          <backgroundCropPos-19_5-9>0.5 1</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 1</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/cyberpunk/background.jpg</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundColor>ffffff</backgroundColor>
          <backgroundTile>false</backgroundTile>
          <!-- Textlist -->
@@ -423,6 +443,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/fallout/background-1-1.jpg</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/fallout/background-1-1.jpg</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
@@ -463,6 +485,8 @@
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-1-1>
          <backgroundCropPos-1-1>0.5 0.5</backgroundCropPos-1-1>
+         <backgroundPath-5-3-vert>./_inc/color-schemes/gameboy-dmg/background.png</backgroundPath-5-3-vert>
+         <backgroundCropPos-5-3-vert>0.5 0.5</backgroundCropPos-5-3-vert>
          <backgroundTile>false</backgroundTile>
          <backgroundColor>ffffff</backgroundColor>
          <!-- Textlist -->
