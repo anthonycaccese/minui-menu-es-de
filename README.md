@@ -2,7 +2,7 @@
 
 This is a translation of the MinUI menu interface (originally designed & created by [Shaun Inman](https://github.com/shauninman/)) for ES-DE.
 
-My work focused on tranlating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
+My work focused on translating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
 
 The original version of the UI can be found as part of the awesome MinUI custom firmware [here](https://github.com/shauninman/MinUI).
 
