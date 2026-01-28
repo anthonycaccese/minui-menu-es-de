@@ -147,7 +147,8 @@ based on 1040x480
       gamelist-list-screenshot,
       gamelist-list-titlescreen,
       gamelist-list-physicalmedia,
-      gamelist-list-miximage
+      gamelist-list-miximage,
+      gamelist-list-marquee
       ">
       <view name="
          gamelist

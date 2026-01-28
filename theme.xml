@@ -270,7 +270,8 @@ https://github.com/anthonycaccese/minui-menu-es-de
       gamelist-list-screenshot,
       gamelist-list-titlescreen,
       gamelist-list-physicalmedia,
-      gamelist-list-miximage
+      gamelist-list-miximage,
+      gamelist-list-marquee
       ">
       <view name="
          gamelist
@@ -359,6 +360,20 @@ https://github.com/anthonycaccese/minui-menu-es-de
             game-art
             ">
             <imageType>miximage</imageType>
+         </video>
+      </view>
+   </variant>
+   <!-- Variants: List: Marquee -->
+   <variant name="
+      gamelist-list-marquee
+      ">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-art
+            ">
+            <imageType>marquee</imageType>
          </video>
       </view>
    </variant>

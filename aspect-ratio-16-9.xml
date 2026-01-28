@@ -147,7 +147,8 @@ based on 853x480
       gamelist-list-screenshot,
       gamelist-list-titlescreen,
       gamelist-list-physicalmedia,
-      gamelist-list-miximage
+      gamelist-list-miximage,
+      gamelist-list-marquee
       ">
       <fontSize name="x-small,small,medium">
          <variables>
